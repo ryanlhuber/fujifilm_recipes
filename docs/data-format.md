@@ -42,10 +42,7 @@ All recipes currently live in `recipes.yml`. Keep settings in the established or
 
   source:
     creator: Creator Name
-    name: Source Page or Recipe Name
     url: https://example.com/
-
-  notes: null
 ```
 
 ## Empty and unavailable values
