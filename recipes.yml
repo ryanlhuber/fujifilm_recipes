@@ -12,9 +12,7 @@ recipes:
     camera_slot: C1
 
     settings:
-      film_simulation:
-        name: Pro Neg. Std
-        filter: null
+      film_simulation: Pro Neg. Std
 
       monochrome_color:
         wc: null
