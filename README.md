@@ -42,3 +42,15 @@ Each modified recipe repeats the complete set of settings so it can be entered i
 | FS1 | Reggie's Portra | Reggie Ballesteros |
 | FS2 | Reggie's Superia | Reggie Ballesteros |
 | FS3 | Reggie's HP5 | Reggie Ballesteros |
+
+## Unassigned recipes
+
+These recipes are saved in the collection but are not currently loaded into a camera slot.
+
+| Recipe | Creator |
+| --- | --- |
+| Mt. Fujicolor Velvia | Keigo Suzuki |
+| Tokyo Dream | Ivan Yolo |
+| Leica Monochrom | Ivan Yolo |
+| Dreaming | Alex Hayes |
+| Dreaming (Modified) | Alex Hayes |
