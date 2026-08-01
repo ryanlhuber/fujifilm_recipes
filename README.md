@@ -16,7 +16,7 @@ Recipes currently loaded on the camera use one of these values:
 - `C1` through `C7`
 - `FS1` through `FS3`
 
-Recipes that are not loaded use `N/A`.
+Recipes that are not loaded use YAML `null`.
 
 ## Favorites
 
