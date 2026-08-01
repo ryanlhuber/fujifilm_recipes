@@ -14,22 +14,25 @@ All recipes currently live in `recipes.yml`. Keep settings in the established or
   camera_slot: null
 
   settings:
-    film_simulation: Pro Neg. Std
+    film_simulation:
+      name: Pro Neg. Std
+      filter: null
 
     monochrome_color:
       wc: null
       mg: null
 
     grain_effect:
-      strength: Off
+      roughness: Off
       size: null
 
     color_chrome_effect: Strong
     color_chrome_fx_blue: Weak
-    smooth_skin_effect: null
+    smooth_skin_effect: Off
 
     white_balance:
       mode: Auto
+      color_temperature: null
       red_shift: 0
       blue_shift: 0
 
@@ -57,50 +60,147 @@ All recipes currently live in `recipes.yml`. Keep settings in the established or
 
 Use YAML `null` when a setting is unavailable, does not apply, was not provided by the source, or when a recipe is not loaded into a camera slot.
 
-Examples:
-
-```yaml
-camera_slot: null
-```
-
-```yaml
-smooth_skin_effect: null
-```
-
-```yaml
-monochrome_color:
-  wc: null
-  mg: null
-```
-
 ## Camera slots
 
-Allowed camera slot values:
+Allowed values:
 
 - `C1` through `C7`
 - `FS1` through `FS3`
 - `null` when not loaded
 
-## White balance
+## Film Simulation
 
-Store the white-balance mode separately from the red and blue shifts:
+Allowed `name` values:
+
+- `Provia`
+- `Velvia`
+- `Astia`
+- `Classic Chrome`
+- `Reala Ace`
+- `Pro Neg. Hi`
+- `Pro Neg. Std`
+- `Classic Neg.`
+- `Nostalgic Neg.`
+- `Eterna/Cinema`
+- `Eterna Bleach Bypass`
+- `Acros`
+- `Monochrome`
+- `Sepia`
+
+For `Acros` and `Monochrome`, `filter` must be one of:
+
+- `STD`
+- `Ye`
+- `R`
+- `G`
+
+For all other simulations, use `filter: null`.
+
+```yaml
+film_simulation:
+  name: Acros
+  filter: R
+```
+
+## Film Grain
+
+`roughness` values:
+
+- `Off`
+- `Weak`
+- `Strong`
+
+`size` values:
+
+- `Small`
+- `Large`
+- `null` when roughness is `Off`
+
+## Color Chrome Effect
+
+- `Off`
+- `Weak`
+- `Strong`
+
+## Color Chrome FX Blue
+
+- `Off`
+- `Weak`
+- `Strong`
+
+## Smooth Skin Effect
+
+- `Off`
+- `Weak`
+- `Strong`
+- `null` when unavailable or not provided
+
+## White Balance
+
+Allowed `mode` values:
+
+- `Auto White Priority`
+- `Auto`
+- `Auto Ambience Priority`
+- `Custom 1`
+- `Custom 2`
+- `Custom 3`
+- `Color Temperature`
+- `Daylight`
+- `Shade`
+- `Fluorescent Light - 1`
+- `Fluorescent Light - 2`
+- `Fluorescent Light - 3`
+- `Incandescent`
+- `Underwater`
+
+Every mode includes numeric `red_shift` and `blue_shift` values.
+
+When `mode` is `Color Temperature`, store the Kelvin value in `color_temperature`:
 
 ```yaml
 white_balance:
-  mode: Auto
+  mode: Color Temperature
+  color_temperature: 5800K
   red_shift: 2
   blue_shift: -2
 ```
 
-## Grain effect
+For all other modes, use `color_temperature: null`.
 
-Grain Effect supports strength and size. When Grain Effect is off, use:
+## Dynamic Range
 
-```yaml
-grain_effect:
-  strength: Off
-  size: null
-```
+- `Auto`
+- `DR100`
+- `DR200`
+- `DR400`
+
+## D Range Priority
+
+- `Off`
+- `Weak`
+- `Strong`
+- `Auto`
+
+## Tone Curve
+
+Both `highlights` and `shadows` range from `-4` to `4` in increments of `0.5`.
+
+## Color
+
+Ranges from `-4` to `4` in increments of `1`.
+
+## Sharpness
+
+Ranges from `-4` to `4` in increments of `1`.
+
+## High ISO NR
+
+Ranges from `-4` to `4` in increments of `1`.
+
+## Clarity
+
+Ranges from `-5` to `5` in increments of `1`.
 
 ## Original and modified recipes
 
