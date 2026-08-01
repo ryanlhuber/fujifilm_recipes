@@ -3,12 +3,7 @@ metadata:
   primary_camera: Fujifilm X-E5
 
 recipes:
-  - id: stillness
-    name: Stillness
-    version: original
-    parent_recipe: null
-
-    favorite: false
+  - name: Stillness
     camera_slot: C1
 
     settings:
