@@ -1,0 +1,57 @@
+metadata:
+  schema_version: 1
+  primary_camera: Fujifilm X-E5
+  sensor_generation: X-Trans CMOS 5
+  empty_value: null
+
+recipes:
+  - id: stillness
+    name: Stillness
+    version: original
+    parent_recipe: null
+
+    status: active
+    favorite: false
+    camera_slot: C1
+
+    compatibility:
+      sensor_generation: X-Trans CMOS 5
+
+    settings:
+      film_simulation: Pro Neg. Std
+
+      monochrome_color:
+        wc: null
+        mg: null
+
+      grain_effect:
+        strength: Off
+        size: null
+
+      color_chrome_effect: Strong
+      color_chrome_fx_blue: Weak
+      smooth_skin_effect: null
+
+      white_balance:
+        mode: Auto
+        red_shift: 2
+        blue_shift: -2
+
+      dynamic_range: DR200
+      d_range_priority: Off
+
+      tone_curve:
+        highlights: -0.5
+        shadows: -0.5
+
+      color: -1
+      sharpness: 0
+      high_iso_nr: 0
+      clarity: 2
+
+    source:
+      creator: Gyu-yeon Lee
+      name: Pro Neg. Std Film Simulation Recipe
+      url: https://www.fujifilm-x.com/en-us/stories/pro-neg-std-fs-recipe-x-gyu-yeon-lee/
+
+    notes: null
