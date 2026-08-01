@@ -28,7 +28,6 @@ recipes:
 
       white_balance:
         mode: Auto
-        color_temperature: null
         red_shift: 2
         blue_shift: -2
 
