@@ -30,7 +30,6 @@ All recipes currently live in `recipes.yml`. Keep settings in the established or
 
     white_balance:
       mode: Auto
-      color_temperature: null
       red_shift: 0
       blue_shift: 0
 
@@ -136,7 +135,9 @@ film_simulation: Monochrome/G
 
 ## White Balance
 
-Allowed `mode` values:
+White Balance contains only `mode`, `red_shift`, and `blue_shift`.
+
+Allowed named `mode` values:
 
 - `Auto White Priority`
 - `Auto`
@@ -144,7 +145,6 @@ Allowed `mode` values:
 - `Custom 1`
 - `Custom 2`
 - `Custom 3`
-- `Color Temperature`
 - `Daylight`
 - `Shade`
 - `Fluorescent Light - 1`
@@ -153,19 +153,23 @@ Allowed `mode` values:
 - `Incandescent`
 - `Underwater`
 
-Every mode includes numeric `red_shift` and `blue_shift` values.
-
-When `mode` is `Color Temperature`, store the Kelvin value in `color_temperature`:
+For a color-temperature white balance, use the Kelvin value directly as the mode:
 
 ```yaml
 white_balance:
-  mode: Color Temperature
-  color_temperature: 5800K
+  mode: 5800K
   red_shift: 2
   blue_shift: -2
 ```
 
-For all other modes, use `color_temperature: null`.
+For a named mode:
+
+```yaml
+white_balance:
+  mode: Auto
+  red_shift: 2
+  blue_shift: -2
+```
 
 ## Dynamic Range
 
