@@ -14,9 +14,7 @@ All recipes currently live in `recipes.yml`. Keep settings in the established or
   camera_slot: null
 
   settings:
-    film_simulation:
-      name: Pro Neg. Std
-      filter: null
+    film_simulation: Pro Neg. Std
 
     monochrome_color:
       wc: null
@@ -70,7 +68,7 @@ Allowed values:
 
 ## Film Simulation
 
-Allowed `name` values:
+Allowed values:
 
 - `Provia`
 - `Velvia`
@@ -83,23 +81,24 @@ Allowed `name` values:
 - `Nostalgic Neg.`
 - `Eterna/Cinema`
 - `Eterna Bleach Bypass`
-- `Acros`
-- `Monochrome`
+- `Acros/STD`
+- `Acros/Ye`
+- `Acros/R`
+- `Acros/G`
+- `Monochrome/STD`
+- `Monochrome/Ye`
+- `Monochrome/R`
+- `Monochrome/G`
 - `Sepia`
 
-For `Acros` and `Monochrome`, `filter` must be one of:
-
-- `STD`
-- `Ye`
-- `R`
-- `G`
-
-For all other simulations, use `filter: null`.
+Acros and Monochrome use the `Film/Filter` pattern:
 
 ```yaml
-film_simulation:
-  name: Acros
-  filter: R
+film_simulation: Acros/Ye
+```
+
+```yaml
+film_simulation: Monochrome/G
 ```
 
 ## Film Grain
