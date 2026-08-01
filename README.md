@@ -33,3 +33,4 @@ Each modified recipe repeats the complete set of settings so it can be entered i
 | Slot | Recipe | Creator |
 | --- | --- | --- |
 | C1 | Stillness | Gyu-yeon Lee |
+| C2 | Anime | Jason Vong |
