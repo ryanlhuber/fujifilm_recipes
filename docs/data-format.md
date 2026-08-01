@@ -38,16 +38,24 @@ All recipes currently live in `recipes.yml`. Keep settings in the established or
     color: 0
     sharpness: 0
     high_iso_nr: 0
-    clarity: 0
+    clarity: null
 
   source:
     creator: Creator Name
     url: https://example.com/
 ```
 
-## Empty and unavailable values
+## Missing and unavailable values
 
-Use YAML `null` when a setting is unavailable, does not apply, was not provided by the source, or when a recipe is not loaded into a camera slot.
+Use these defaults when a source does not provide a setting:
+
+- Use `Off` for settings that support an `Off` value.
+- Use `0` for omitted numeric settings, including white-balance shifts, Tone Curve, Color, Sharpness, and High ISO NR.
+- Use `null` for Clarity when it is not provided.
+- Use `null` for Monochromatic Color when it does not apply or is not provided.
+- Use `null` for dependent settings that do not have an `Off` value, such as Grain Size when Grain Roughness is `Off`.
+- Use `null` for a camera slot when the recipe is not loaded on the camera.
+- A non-numeric setting without an `Off` option may use `null` when the source does not provide it.
 
 ## Camera slots
 
@@ -123,7 +131,6 @@ film_simulation: Monochrome/G
 - `Off`
 - `Weak`
 - `Strong`
-- `null` when unavailable or not provided
 
 ## White Balance
 
@@ -163,6 +170,8 @@ white_balance:
   blue_shift: -2
 ```
 
+If red or blue shifts are not provided, use `0`.
+
 ## Dynamic Range
 
 - `Auto`
@@ -177,25 +186,27 @@ white_balance:
 - `Strong`
 - `Auto`
 
+Use `Off` when it is not provided.
+
 ## Tone Curve
 
-Both `highlights` and `shadows` range from `-4` to `4` in increments of `0.5`.
+Both `highlights` and `shadows` range from `-4` to `4` in increments of `0.5`. Use `0` when either value is not provided.
 
 ## Color
 
-Ranges from `-4` to `4` in increments of `1`.
+Ranges from `-4` to `4` in increments of `1`. Use `0` when not provided.
 
 ## Sharpness
 
-Ranges from `-4` to `4` in increments of `1`.
+Ranges from `-4` to `4` in increments of `1`. Use `0` when not provided.
 
 ## High ISO NR
 
-Ranges from `-4` to `4` in increments of `1`.
+Ranges from `-4` to `4` in increments of `1`. Use `0` when not provided.
 
 ## Clarity
 
-Ranges from `-5` to `5` in increments of `1`.
+Ranges from `-5` to `5` in increments of `1`. Use `null` when not provided.
 
 ## Modified recipes
 
