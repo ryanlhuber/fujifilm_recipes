@@ -12,14 +12,16 @@ recipes:
     camera_slot: C1
 
     settings:
-      film_simulation: Pro Neg. Std
+      film_simulation:
+        name: Pro Neg. Std
+        filter: null
 
       monochrome_color:
         wc: null
         mg: null
 
       grain_effect:
-        strength: Off
+        roughness: Off
         size: null
 
       color_chrome_effect: Strong
@@ -28,6 +30,7 @@ recipes:
 
       white_balance:
         mode: Auto
+        color_temperature: null
         red_shift: 2
         blue_shift: -2
 
