@@ -1,8 +1,6 @@
 metadata:
   schema_version: 1
   primary_camera: Fujifilm X-E5
-  sensor_generation: X-Trans CMOS 5
-  empty_value: null
 
 recipes:
   - id: stillness
@@ -10,12 +8,8 @@ recipes:
     version: original
     parent_recipe: null
 
-    status: active
     favorite: false
     camera_slot: C1
-
-    compatibility:
-      sensor_generation: X-Trans CMOS 5
 
     settings:
       film_simulation: Pro Neg. Std
