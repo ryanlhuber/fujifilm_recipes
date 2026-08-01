@@ -40,10 +40,7 @@ recipes:
 
     source:
       creator: Gyu-yeon Lee
-      name: Pro Neg. Std Film Simulation Recipe
       url: https://www.fujifilm-x.com/en-us/stories/pro-neg-std-fs-recipe-x-gyu-yeon-lee/
-
-    notes: null
 
   - name: Anime
     camera_slot: C2
@@ -82,7 +79,4 @@ recipes:
 
     source:
       creator: Jason Vong
-      name: The Anime Recipe for Fujifilm That No One's Talking About!
       url: https://www.youtube.com/watch?v=1f8EpRfwYr0
-
-    notes: null
