@@ -119,3 +119,81 @@ recipes:
     source:
       creator: Derrick Ong
       url: https://www.fujifilm-x.com/en-us/stories/pro-neg-std-fs-recipe-x-derrick-ong/
+
+  - name: Mt. Fujicolor Velvia
+    camera_slot: null
+
+    settings:
+      film_simulation: Velvia
+
+      monochrome_color:
+        wc: null
+        mg: null
+
+      grain_effect:
+        roughness: Off
+        size: null
+
+      color_chrome_effect: Off
+      color_chrome_fx_blue: Off
+      smooth_skin_effect: Off
+
+      white_balance:
+        mode: Daylight
+        red_shift: 0
+        blue_shift: 0
+
+      dynamic_range: DR100
+      d_range_priority: Off
+
+      tone_curve:
+        highlights: -1
+        shadows: 4
+
+      color: 1
+      sharpness: 2
+      high_iso_nr: 0
+      clarity: 1
+
+    source:
+      creator: Keigo Suzuki
+      url: https://www.fujifilm-x.com/en-us/stories/velvia-fs-recipe-x-keigo-suzuki/
+
+  - name: Mt. Fujicolor Velvia (Modified)
+    camera_slot: C4
+
+    settings:
+      film_simulation: Velvia
+
+      monochrome_color:
+        wc: null
+        mg: null
+
+      grain_effect:
+        roughness: Off
+        size: null
+
+      color_chrome_effect: Off
+      color_chrome_fx_blue: Off
+      smooth_skin_effect: Off
+
+      white_balance:
+        mode: Daylight
+        red_shift: 0
+        blue_shift: 0
+
+      dynamic_range: Auto
+      d_range_priority: Off
+
+      tone_curve:
+        highlights: -1
+        shadows: 4
+
+      color: 1
+      sharpness: 2
+      high_iso_nr: 0
+      clarity: 1
+
+    source:
+      creator: Keigo Suzuki
+      url: https://www.fujifilm-x.com/en-us/stories/velvia-fs-recipe-x-keigo-suzuki/
