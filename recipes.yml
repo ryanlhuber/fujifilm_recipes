@@ -44,3 +44,45 @@ recipes:
       url: https://www.fujifilm-x.com/en-us/stories/pro-neg-std-fs-recipe-x-gyu-yeon-lee/
 
     notes: null
+
+  - name: Anime
+    camera_slot: C2
+
+    settings:
+      film_simulation: Classic Chrome
+
+      monochrome_color:
+        wc: null
+        mg: null
+
+      grain_effect:
+        roughness: Off
+        size: null
+
+      color_chrome_effect: Strong
+      color_chrome_fx_blue: Off
+      smooth_skin_effect: null
+
+      white_balance:
+        mode: Daylight
+        red_shift: null
+        blue_shift: null
+
+      dynamic_range: DR400
+      d_range_priority: null
+
+      tone_curve:
+        highlights: -2
+        shadows: -2
+
+      color: 4
+      sharpness: -2
+      high_iso_nr: -4
+      clarity: null
+
+    source:
+      creator: Jason Vong
+      name: The Anime Recipe for Fujifilm That No One's Talking About!
+      url: https://www.youtube.com/watch?v=1f8EpRfwYr0
+
+    notes: null
