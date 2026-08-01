@@ -19,7 +19,7 @@ recipes:
 
       color_chrome_effect: Strong
       color_chrome_fx_blue: Weak
-      smooth_skin_effect: null
+      smooth_skin_effect: Off
 
       white_balance:
         mode: Auto
@@ -58,15 +58,15 @@ recipes:
 
       color_chrome_effect: Strong
       color_chrome_fx_blue: Off
-      smooth_skin_effect: null
+      smooth_skin_effect: Off
 
       white_balance:
         mode: Daylight
-        red_shift: null
-        blue_shift: null
+        red_shift: 0
+        blue_shift: 0
 
       dynamic_range: DR400
-      d_range_priority: null
+      d_range_priority: Off
 
       tone_curve:
         highlights: -2
