@@ -45,6 +45,19 @@ All recipes currently live in `recipes.yml`. Keep settings in the established or
     url: https://example.com/
 ```
 
+## Source
+
+Use the recipe creator's name and the original page or video URL when available.
+
+For an original recipe created for this collection, use:
+
+```yaml
+source:
+  creator: self
+```
+
+The source URL is optional when there is no external source.
+
 ## Missing and unavailable values
 
 Use these defaults when a source does not provide a setting:
