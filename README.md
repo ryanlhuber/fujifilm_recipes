@@ -1,6 +1,6 @@
 # Fujifilm Recipes
 
-A personal collection of Fujifilm film simulation recipes, organized for the Fujifilm X-E5 and other cameras using the fifth-generation X-Trans sensor family.
+A personal collection of Fujifilm film simulation recipes, organized for the Fujifilm X-E5.
 
 The repository starts with one YAML file so recipes are easy to add and maintain. The structure is designed to support a future searchable website without requiring the collection to be rewritten.
 
@@ -16,16 +16,11 @@ Recipes currently loaded on the camera use one of these values:
 - `C1` through `C7`
 - `FS1` through `FS3`
 
-Recipes that are not loaded use `null`. A future interface can display that value as an em dash.
+Recipes that are not loaded use `N/A`.
 
-## Status values
+## Favorites
 
-- `interested` — saved for possible future use
-- `testing` — currently being evaluated
-- `active` — currently loaded on the camera
-- `archived` — no longer in active consideration
-
-Favorites are tracked separately with `favorite: true` or `favorite: false`.
+Favorites can be tracked separately with `favorite: true` or `favorite: false`.
 
 ## Modified recipes
 
@@ -41,6 +36,6 @@ Each modified recipe repeats the complete set of settings so it can be entered i
 
 ## Current recipes
 
-| Slot | Recipe | Status | Creator |
-| --- | --- | --- | --- |
-| C1 | Stillness | Active | Gyu-yeon Lee |
+| Slot | Recipe | Creator |
+| --- | --- | --- |
+| C1 | Stillness | Gyu-yeon Lee |
