@@ -38,3 +38,4 @@ Each modified recipe repeats the complete set of settings so it can be entered i
 | C4 | Mt. Fujicolor Velvia (Modified) | Keigo Suzuki |
 | C5 | Tokyo Dream (Modified) | Ivan Yolo |
 | C6 | Mika Ninagawa | self |
+| C7 | Leica Monochrom (Modified) | Ivan Yolo |
