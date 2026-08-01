@@ -41,3 +41,4 @@ Each modified recipe repeats the complete set of settings so it can be entered i
 | C7 | Leica Monochrom (Modified) | Ivan Yolo |
 | FS1 | Reggie's Portra | Reggie Ballesteros |
 | FS2 | Reggie's Superia | Reggie Ballesteros |
+| FS3 | Reggie's HP5 | Reggie Ballesteros |
