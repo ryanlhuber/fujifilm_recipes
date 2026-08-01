@@ -10,12 +10,8 @@ All recipes currently live in `recipes.yml`. Keep settings in the established or
   version: original
   parent_recipe: null
 
-  status: interested
   favorite: false
   camera_slot: null
-
-  compatibility:
-    sensor_generation: X-Trans CMOS 5
 
   settings:
     film_simulation: Pro Neg. Std
@@ -57,11 +53,15 @@ All recipes currently live in `recipes.yml`. Keep settings in the established or
   notes: null
 ```
 
-## Empty and unavailable settings
+## Empty and unavailable values
 
-Use YAML `null` when a setting is unavailable, does not apply, or was not provided by the source. Do not store `N/A`, `NA`, or an em dash as text.
+Use YAML `null` when a setting is unavailable, does not apply, was not provided by the source, or when a recipe is not loaded into a camera slot.
 
 Examples:
+
+```yaml
+camera_slot: null
+```
 
 ```yaml
 smooth_skin_effect: null
@@ -72,6 +72,14 @@ monochrome_color:
   wc: null
   mg: null
 ```
+
+## Camera slots
+
+Allowed camera slot values:
+
+- `C1` through `C7`
+- `FS1` through `FS3`
+- `null` when not loaded
 
 ## White balance
 
@@ -113,23 +121,6 @@ parent_recipe: recipe-name
 ```
 
 Repeat every setting in the modified entry, including unchanged values. This makes each entry complete and usable on its own.
-
-## Status and slot rules
-
-Allowed status values:
-
-- `interested`
-- `testing`
-- `active`
-- `archived`
-
-Allowed camera slots:
-
-- `C1` through `C7`
-- `FS1` through `FS3`
-- `null` when not loaded
-
-A recipe using a camera slot should normally have `status: active`.
 
 ## IDs
 
