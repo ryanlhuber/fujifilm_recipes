@@ -5,12 +5,7 @@ All recipes currently live in `recipes.yml`. Keep settings in the established or
 ## Recipe fields
 
 ```yaml
-- id: recipe-name
-  name: Recipe Name
-  version: original
-  parent_recipe: null
-
-  favorite: false
+- name: Recipe Name
   camera_slot: null
 
   settings:
@@ -205,32 +200,12 @@ Ranges from `-4` to `4` in increments of `1`.
 
 Ranges from `-5` to `5` in increments of `1`.
 
-## Original and modified recipes
+## Modified recipes
 
-Original recipes use:
-
-```yaml
-version: original
-parent_recipe: null
-```
-
-A personal variation uses the original recipe's ID as its parent:
+Modified versions remain separate entries and use the naming pattern:
 
 ```yaml
-id: recipe-name-modified
 name: Recipe Name (Modified)
-version: modified
-parent_recipe: recipe-name
 ```
 
 Repeat every setting in the modified entry, including unchanged values. This makes each entry complete and usable on its own.
-
-## IDs
-
-Use lowercase kebab-case IDs based on the recipe name:
-
-```yaml
-id: stillness
-id: classic-cuban-negative
-id: classic-cuban-negative-modified
-```
