@@ -54,3 +54,4 @@ These recipes are saved in the collection but are not currently loaded into a ca
 | Leica Monochrom | Ivan Yolo |
 | Dreaming | Alex Hayes |
 | Dreaming (Modified) | Alex Hayes |
+| Teal Obscure | Ivan Yolo |
