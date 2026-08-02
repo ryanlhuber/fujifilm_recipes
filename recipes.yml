@@ -740,3 +740,120 @@ recipes:
 
     source:
       creator: self
+
+  - name: Dreamy Purple
+    camera_slot: null
+
+    settings:
+      film_simulation: Classic Neg.
+
+      monochrome_color:
+        wc: null
+        mg: null
+
+      grain_effect:
+        roughness: Strong
+        size: Large
+
+      color_chrome_effect: Strong
+      color_chrome_fx_blue: Strong
+      smooth_skin_effect: Off
+
+      white_balance:
+        mode: Auto White Priority
+        red_shift: 0
+        blue_shift: 7
+
+      dynamic_range: DR400
+      d_range_priority: Off
+
+      tone_curve:
+        highlights: -2
+        shadows: 2
+
+      color: 1
+      sharpness: -1
+      high_iso_nr: -4
+      clarity: -5
+
+    source:
+      creator: Ivan Yolo
+      url: https://www.shuttergroove.com/fujifilm-recipes/classic-negative-recipes/papurudorimu-sooc-dreamy-purple-film-recipe/
+
+  - name: Natura Classic Film
+    camera_slot: null
+
+    settings:
+      film_simulation: Classic Neg.
+
+      monochrome_color:
+        wc: null
+        mg: null
+
+      grain_effect:
+        roughness: Strong
+        size: Large
+
+      color_chrome_effect: Strong
+      color_chrome_fx_blue: Strong
+      smooth_skin_effect: Off
+
+      white_balance:
+        mode: Auto
+        red_shift: -3
+        blue_shift: -3
+
+      dynamic_range: DR200
+      d_range_priority: Off
+
+      tone_curve:
+        highlights: 2
+        shadows: -1
+
+      color: 2
+      sharpness: 0
+      high_iso_nr: -4
+      clarity: 0
+
+    source:
+      creator: Ivan Yolo
+      url: https://www.shuttergroove.com/fujifilm-recipes/35mm-film-recipes/natura-classic-film-fuji-x-trans-iv-film-simulation-recipe/
+
+  - name: Ginza 1980
+    camera_slot: null
+
+    settings:
+      film_simulation: Classic Chrome
+
+      monochrome_color:
+        wc: null
+        mg: null
+
+      grain_effect:
+        roughness: Strong
+        size: Large
+
+      color_chrome_effect: Off
+      color_chrome_fx_blue: Off
+      smooth_skin_effect: Off
+
+      white_balance:
+        mode: Fluorescent Light - 1
+        red_shift: 2
+        blue_shift: -2
+
+      dynamic_range: DR100
+      d_range_priority: Off
+
+      tone_curve:
+        highlights: -2
+        shadows: -1
+
+      color: 3
+      sharpness: -4
+      high_iso_nr: -4
+      clarity: 0
+
+    source:
+      creator: Ivan Yolo
+      url: https://www.shuttergroove.com/fujifilm-recipes/classic-chrome-recipes/ginza-1980-film-simulation-recipe/
