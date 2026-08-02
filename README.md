@@ -61,3 +61,4 @@ These recipes are saved in the collection but are not currently loaded into a ca
 | Dreamy Purple | Ivan Yolo |
 | Natura Classic Film | Ivan Yolo |
 | Ginza 1980 | Ivan Yolo |
+| Moody Metropolis 500T | Ivan Yolo |
