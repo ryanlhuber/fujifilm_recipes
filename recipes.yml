@@ -857,3 +857,42 @@ recipes:
     source:
       creator: Ivan Yolo
       url: https://www.shuttergroove.com/fujifilm-recipes/classic-chrome-recipes/ginza-1980-film-simulation-recipe/
+
+  - name: Moody Metropolis 500T
+    camera_slot: null
+
+    settings:
+      film_simulation: Classic Neg.
+
+      monochrome_color:
+        wc: null
+        mg: null
+
+      grain_effect:
+        roughness: Weak
+        size: Small
+
+      color_chrome_effect: Strong
+      color_chrome_fx_blue: Strong
+      smooth_skin_effect: Off
+
+      white_balance:
+        mode: Fluorescent Light - 2
+        red_shift: -3
+        blue_shift: -6
+
+      dynamic_range: DR400
+      d_range_priority: Off
+
+      tone_curve:
+        highlights: -1
+        shadows: 0
+
+      color: 0
+      sharpness: 0
+      high_iso_nr: -4
+      clarity: 0
+
+    source:
+      creator: Ivan Yolo
+      url: https://www.shuttergroove.com/fujifilm-recipes/classic-negative-recipes/moody-metropolis-500t-film-recipe-joker-inspired/
