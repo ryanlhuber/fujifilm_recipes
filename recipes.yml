@@ -896,3 +896,42 @@ recipes:
     source:
       creator: Ivan Yolo
       url: https://www.shuttergroove.com/fujifilm-recipes/classic-negative-recipes/moody-metropolis-500t-film-recipe-joker-inspired/
+
+  - name: Sunburst
+    camera_slot: null
+
+    settings:
+      film_simulation: Classic Neg.
+
+      monochrome_color:
+        wc: null
+        mg: null
+
+      grain_effect:
+        roughness: Off
+        size: null
+
+      color_chrome_effect: Weak
+      color_chrome_fx_blue: Weak
+      smooth_skin_effect: Off
+
+      white_balance:
+        mode: Auto
+        red_shift: 2
+        blue_shift: -3
+
+      dynamic_range: DR200
+      d_range_priority: Off
+
+      tone_curve:
+        highlights: 0.5
+        shadows: -1
+
+      color: 1
+      sharpness: 0
+      high_iso_nr: 0
+      clarity: 0
+
+    source:
+      creator: Naoya Takahashi
+      url: https://www.fujifilm-x.com/en-us/stories/classic-neg-fs-recipe-x-naoya-takahashi/
