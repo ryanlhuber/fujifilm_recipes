@@ -58,3 +58,6 @@ These recipes are saved in the collection but are not currently loaded into a ca
 | Velvet Shade | Ivan Yolo |
 | Kurosawa | self |
 | Ansel Adams | self |
+| Dreamy Purple | Ivan Yolo |
+| Natura Classic Film | Ivan Yolo |
+| Ginza 1980 | Ivan Yolo |
