@@ -625,3 +625,42 @@ recipes:
     source:
       creator: Ivan Yolo
       url: https://www.shuttergroove.com/fujifilm-recipes/obscura-recipes/teal-obscure-orange-teal-recipe/
+
+  - name: Velvet Shade
+    camera_slot: null
+
+    settings:
+      film_simulation: Astia
+
+      monochrome_color:
+        wc: null
+        mg: null
+
+      grain_effect:
+        roughness: Off
+        size: null
+
+      color_chrome_effect: Strong
+      color_chrome_fx_blue: Off
+      smooth_skin_effect: Off
+
+      white_balance:
+        mode: Daylight
+        red_shift: 3
+        blue_shift: 2
+
+      dynamic_range: DR400
+      d_range_priority: Off
+
+      tone_curve:
+        highlights: 0
+        shadows: 0
+
+      color: 1
+      sharpness: 1
+      high_iso_nr: -4
+      clarity: 0
+
+    source:
+      creator: Ivan Yolo
+      url: https://www.shuttergroove.com/fujifilm-recipes/astia-recipes/velvet-shade-recipe/
