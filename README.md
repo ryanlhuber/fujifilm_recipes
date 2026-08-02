@@ -55,3 +55,4 @@ These recipes are saved in the collection but are not currently loaded into a ca
 | Dreaming | Alex Hayes |
 | Dreaming (Modified) | Alex Hayes |
 | Teal Obscure | Ivan Yolo |
+| Velvet Shade | Ivan Yolo |
