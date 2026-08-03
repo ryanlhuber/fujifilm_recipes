@@ -64,3 +64,4 @@ These recipes are saved in the collection but are not currently loaded into a ca
 | Moody Metropolis 500T | Ivan Yolo |
 | Sunburst | Naoya Takahashi |
 | Summer Evening Glow | Yuri Nanasaki |
+| Vintage Bronze | Ritchie Roesch |
