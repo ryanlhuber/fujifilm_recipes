@@ -63,3 +63,4 @@ These recipes are saved in the collection but are not currently loaded into a ca
 | Ginza 1980 | Ivan Yolo |
 | Moody Metropolis 500T | Ivan Yolo |
 | Sunburst | Naoya Takahashi |
+| Summer Evening Glow | Yuri Nanasaki |
