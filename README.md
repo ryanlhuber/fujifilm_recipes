@@ -66,3 +66,4 @@ These recipes are saved in the collection but are not currently loaded into a ca
 | Summer Evening Glow | Yuri Nanasaki |
 | Vintage Bronze | Ritchie Roesch |
 | Vibrant Astia Soft | Osan Bilgi |
+| Pastel Vibes | Willow Rotter |
