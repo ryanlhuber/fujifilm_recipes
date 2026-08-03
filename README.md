@@ -67,3 +67,5 @@ These recipes are saved in the collection but are not currently loaded into a ca
 | Vintage Bronze | Ritchie Roesch |
 | Vibrant Astia Soft | Osan Bilgi |
 | Pastel Vibes | Willow Rotter |
+| Nomadic Mood | Ivan Yolo |
+| Pastel Daydream | Ivan Yolo |
