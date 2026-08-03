@@ -935,3 +935,42 @@ recipes:
     source:
       creator: Naoya Takahashi
       url: https://www.fujifilm-x.com/en-us/stories/classic-neg-fs-recipe-x-naoya-takahashi/
+
+  - name: Summer Evening Glow
+    camera_slot: null
+
+    settings:
+      film_simulation: Provia
+
+      monochrome_color:
+        wc: null
+        mg: null
+
+      grain_effect:
+        roughness: Weak
+        size: Small
+
+      color_chrome_effect: Weak
+      color_chrome_fx_blue: Weak
+      smooth_skin_effect: Weak
+
+      white_balance:
+        mode: 5000K
+        red_shift: 0
+        blue_shift: 0
+
+      dynamic_range: DR200
+      d_range_priority: Off
+
+      tone_curve:
+        highlights: -2
+        shadows: -2
+
+      color: 2
+      sharpness: -1
+      high_iso_nr: 0
+      clarity: 0
+
+    source:
+      creator: Yuri Nanasaki
+      url: https://www.fujifilm-x.com/en-us/stories/provia-fs-recipe-x-yuri-nanasaki/
