@@ -65,3 +65,4 @@ These recipes are saved in the collection but are not currently loaded into a ca
 | Sunburst | Naoya Takahashi |
 | Summer Evening Glow | Yuri Nanasaki |
 | Vintage Bronze | Ritchie Roesch |
+| Vibrant Astia Soft | Osan Bilgi |
