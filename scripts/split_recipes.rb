@@ -2,15 +2,18 @@
 # frozen_string_literal: true
 
 require "fileutils"
-require "open3"
 require "yaml"
 
 LEGACY_SOURCE_PATH = "recipes.yml"
 RECIPES_DIR = "recipes"
 GENERATED_DIR = "generated"
 GENERATED_PATH = File.join(GENERATED_DIR, "recipes.yml")
-RECOVERY_REF = "a7c047a954b5fc4b8515718bea3dc7ce68106aa2:generated/recipes.yml"
 NULL_SENTINEL = "__FUJI_NULL__"
+
+METADATA = {
+  "schema_version" => 1,
+  "primary_camera" => "Fujifilm X-E5"
+}.freeze
 
 UNUSED_SETTING_KEYS = %w[
   roughness
@@ -74,53 +77,43 @@ def validate_no_boolean_settings!(value, path = [])
   end
 end
 
-def load_collection
-  source_path = if File.exist?(LEGACY_SOURCE_PATH)
-                  LEGACY_SOURCE_PATH
-                elsif File.exist?(GENERATED_PATH)
-                  GENERATED_PATH
-                else
-                  abort "No recipe collection found to split."
-                end
+def migrate_legacy_collection!
+  return unless File.exist?(LEGACY_SOURCE_PATH)
 
-  YAML.safe_load(File.read(source_path), permitted_classes: [], aliases: false)
-rescue Psych::SyntaxError
-  recovered, status = Open3.capture2("git", "show", RECOVERY_REF)
-  abort "Could not recover the pre-migration recipe collection." unless status.success?
+  data = YAML.safe_load(File.read(LEGACY_SOURCE_PATH), permitted_classes: [], aliases: false)
+  recipes = data.fetch("recipes")
+  FileUtils.mkdir_p(RECIPES_DIR)
 
-  YAML.safe_load(recovered, permitted_classes: [], aliases: false)
-end
-
-data = normalize_yaml_values(load_collection)
-validate_no_boolean_settings!(data)
-metadata = data.fetch("metadata")
-recipes = data.fetch("recipes")
-
-FileUtils.rm_rf(RECIPES_DIR)
-FileUtils.mkdir_p(RECIPES_DIR)
-FileUtils.mkdir_p(GENERATED_DIR)
-
-used_slugs = {}
-recipes.each do |recipe|
-  base_slug = slugify(recipe.fetch("name"))
-  slug = base_slug
-  suffix = 2
-
-  while used_slugs.key?(slug)
-    slug = "#{base_slug}-#{suffix}"
-    suffix += 1
+  recipes.each do |recipe|
+    normalized = normalize_yaml_values(recipe)
+    validate_no_boolean_settings!(normalized)
+    path = File.join(RECIPES_DIR, "#{slugify(normalized.fetch('name'))}.yml")
+    File.write(path, dump_yaml(normalized))
   end
-
-  used_slugs[slug] = true
-  File.write(File.join(RECIPES_DIR, "#{slug}.yml"), dump_yaml(recipe))
 end
 
+migrate_legacy_collection!
+
+recipe_paths = Dir.glob(File.join(RECIPES_DIR, "*.yml")).sort
+abort "No individual recipe files found in #{RECIPES_DIR}/." if recipe_paths.empty?
+
+recipes = recipe_paths.map do |path|
+  recipe = YAML.safe_load(File.read(path), permitted_classes: [], aliases: false)
+  recipe = normalize_yaml_values(recipe)
+  validate_no_boolean_settings!(recipe)
+  recipe
+end
+
+names = recipes.map { |recipe| recipe.fetch("name") }
+duplicates = names.group_by(&:itself).select { |_name, matches| matches.length > 1 }.keys
+abort "Duplicate recipe names found: #{duplicates.join(', ')}" unless duplicates.empty?
+
+FileUtils.mkdir_p(GENERATED_DIR)
 combined = {
-  "metadata" => metadata,
+  "metadata" => METADATA,
   "recipes" => recipes
 }
-
 File.write(GENERATED_PATH, dump_yaml(combined))
 
-puts "Created #{recipes.length} recipe files in #{RECIPES_DIR}/"
+puts "Read #{recipes.length} recipe files from #{RECIPES_DIR}/"
 puts "Created #{GENERATED_PATH}"
