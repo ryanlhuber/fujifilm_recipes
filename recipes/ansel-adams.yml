@@ -1,0 +1,29 @@
+---
+name: Ansel Adams
+camera_slot:
+settings:
+  film_simulation: Acros/R
+  monochrome_color:
+    wc: -1
+    mg: 0
+  grain_effect:
+    roughness: Weak
+    size: Small
+  color_chrome_effect: false
+  color_chrome_fx_blue: false
+  smooth_skin_effect: false
+  white_balance:
+    mode: Auto
+    red_shift: 0
+    blue_shift: 0
+  dynamic_range: DR400
+  d_range_priority: false
+  tone_curve:
+    highlights: 2
+    shadows: 3
+  color: 0
+  sharpness: 1
+  high_iso_nr: -4
+  clarity: 5
+source:
+  creator: self

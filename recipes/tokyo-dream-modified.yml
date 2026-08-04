@@ -1,0 +1,30 @@
+---
+name: Tokyo Dream (Modified)
+camera_slot: C5
+settings:
+  film_simulation: Classic Neg.
+  monochrome_color:
+    wc:
+    mg:
+  grain_effect:
+    roughness: Weak
+    size: Small
+  color_chrome_effect: Strong
+  color_chrome_fx_blue: Strong
+  smooth_skin_effect: false
+  white_balance:
+    mode: 5800K
+    red_shift: -6
+    blue_shift: -2
+  dynamic_range: Auto
+  d_range_priority: false
+  tone_curve:
+    highlights: -2
+    shadows: 2
+  color: -2
+  sharpness: -4
+  high_iso_nr: -4
+  clarity: -4
+source:
+  creator: Ivan Yolo
+  url: https://www.shuttergroove.com/fujifilm-recipes/classic-negative-recipes/tokyo-dream-fujifilm-xt4-dreamy-recipe/

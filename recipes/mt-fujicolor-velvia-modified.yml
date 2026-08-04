@@ -1,0 +1,30 @@
+---
+name: Mt. Fujicolor Velvia (Modified)
+camera_slot: C4
+settings:
+  film_simulation: Velvia
+  monochrome_color:
+    wc:
+    mg:
+  grain_effect:
+    roughness: false
+    size:
+  color_chrome_effect: false
+  color_chrome_fx_blue: false
+  smooth_skin_effect: false
+  white_balance:
+    mode: Daylight
+    red_shift: 0
+    blue_shift: 0
+  dynamic_range: Auto
+  d_range_priority: false
+  tone_curve:
+    highlights: -1
+    shadows: 4
+  color: 1
+  sharpness: 2
+  high_iso_nr: 0
+  clarity: 1
+source:
+  creator: Keigo Suzuki
+  url: https://www.fujifilm-x.com/en-us/stories/velvia-fs-recipe-x-keigo-suzuki/

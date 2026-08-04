@@ -1,0 +1,30 @@
+---
+name: Pro Neg. Portrait
+camera_slot: C3
+settings:
+  film_simulation: Pro Neg. Std
+  monochrome_color:
+    wc:
+    mg:
+  grain_effect:
+    roughness: Weak
+    size: Small
+  color_chrome_effect: false
+  color_chrome_fx_blue: false
+  smooth_skin_effect: false
+  white_balance:
+    mode: Auto
+    red_shift: -1
+    blue_shift: -2
+  dynamic_range: Auto
+  d_range_priority: false
+  tone_curve:
+    highlights: 0
+    shadows: 1
+  color: 2
+  sharpness: 2
+  high_iso_nr: -1
+  clarity: 0
+source:
+  creator: Derrick Ong
+  url: https://www.fujifilm-x.com/en-us/stories/pro-neg-std-fs-recipe-x-derrick-ong/

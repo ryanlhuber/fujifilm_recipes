@@ -1,0 +1,30 @@
+---
+name: Natura Classic Film
+camera_slot:
+settings:
+  film_simulation: Classic Neg.
+  monochrome_color:
+    wc:
+    mg:
+  grain_effect:
+    roughness: Strong
+    size: Large
+  color_chrome_effect: Strong
+  color_chrome_fx_blue: Strong
+  smooth_skin_effect: false
+  white_balance:
+    mode: Auto
+    red_shift: -3
+    blue_shift: -3
+  dynamic_range: DR200
+  d_range_priority: false
+  tone_curve:
+    highlights: 2
+    shadows: -1
+  color: 2
+  sharpness: 0
+  high_iso_nr: -4
+  clarity: 0
+source:
+  creator: Ivan Yolo
+  url: https://www.shuttergroove.com/fujifilm-recipes/35mm-film-recipes/natura-classic-film-fuji-x-trans-iv-film-simulation-recipe/

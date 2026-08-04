@@ -1,0 +1,30 @@
+---
+name: Pastel Daydream
+camera_slot:
+settings:
+  film_simulation: Classic Chrome
+  monochrome_color:
+    wc:
+    mg:
+  grain_effect:
+    roughness: Weak
+    size: Small
+  color_chrome_effect: Weak
+  color_chrome_fx_blue: Strong
+  smooth_skin_effect: false
+  white_balance:
+    mode: Daylight
+    red_shift: -2
+    blue_shift: 2
+  dynamic_range: DR400
+  d_range_priority: false
+  tone_curve:
+    highlights: 0
+    shadows: 0
+  color: 1
+  sharpness: 1
+  high_iso_nr: -4
+  clarity: -1
+source:
+  creator: Ivan Yolo
+  url: https://www.shuttergroove.com/

@@ -1,0 +1,30 @@
+---
+name: Leica Monochrom (Modified)
+camera_slot: C7
+settings:
+  film_simulation: Acros/Ye
+  monochrome_color:
+    wc: 0
+    mg: 0
+  grain_effect:
+    roughness: Weak
+    size: Small
+  color_chrome_effect: Strong
+  color_chrome_fx_blue: false
+  smooth_skin_effect: false
+  white_balance:
+    mode: Daylight
+    red_shift: 2
+    blue_shift: -2
+  dynamic_range: Auto
+  d_range_priority: false
+  tone_curve:
+    highlights: 0
+    shadows: 0
+  color: 0
+  sharpness: 4
+  high_iso_nr: -4
+  clarity: 5
+source:
+  creator: Ivan Yolo
+  url: https://www.shuttergroove.com/fujifilm-recipes/monochrome-recipes/leica-monochrom-film-recipe-for-fujifilm-cameras/

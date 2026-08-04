@@ -1,0 +1,30 @@
+---
+name: Teal Obscure
+camera_slot:
+settings:
+  film_simulation: Eterna/Cinema
+  monochrome_color:
+    wc:
+    mg:
+  grain_effect:
+    roughness: Weak
+    size: Large
+  color_chrome_effect: Weak
+  color_chrome_fx_blue: Strong
+  smooth_skin_effect: false
+  white_balance:
+    mode: 4550K
+    red_shift: 1
+    blue_shift: -9
+  dynamic_range: DR400
+  d_range_priority: false
+  tone_curve:
+    highlights: -1
+    shadows: 4
+  color: -1
+  sharpness: -2
+  high_iso_nr: -4
+  clarity: -5
+source:
+  creator: Ivan Yolo
+  url: https://www.shuttergroove.com/fujifilm-recipes/obscura-recipes/teal-obscure-orange-teal-recipe/

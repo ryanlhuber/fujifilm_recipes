@@ -1,0 +1,30 @@
+---
+name: Dreaming
+camera_slot:
+settings:
+  film_simulation: Classic Neg.
+  monochrome_color:
+    wc:
+    mg:
+  grain_effect:
+    roughness: Strong
+    size: Small
+  color_chrome_effect: false
+  color_chrome_fx_blue: false
+  smooth_skin_effect: false
+  white_balance:
+    mode: Daylight
+    red_shift: 4
+    blue_shift: -5
+  dynamic_range: DR200
+  d_range_priority: false
+  tone_curve:
+    highlights: -2
+    shadows: 1
+  color: 3
+  sharpness: -2
+  high_iso_nr: -4
+  clarity: -2
+source:
+  creator: Alex Hayes
+  url: https://www.youtube.com/watch?v=tk_g-xT2XPY&list=LL&index=5
