@@ -1,30 +1,29 @@
----
 name: Anime
 camera_slot: C2
-settings:
+settings: null
   film_simulation: Classic Chrome
-  monochrome_color:
-    wc:
-    mg:
-  grain_effect:
-    roughness: false
-    size:
+  monochrome_color: null
+    wc: null
+    mg: null
+  grain_effect: null
+    roughness: 'Off'
+    size: null
   color_chrome_effect: Strong
-  color_chrome_fx_blue: false
-  smooth_skin_effect: false
-  white_balance:
+  color_chrome_fx_blue: 'Off'
+  smooth_skin_effect: 'Off'
+  white_balance: null
     mode: Daylight
     red_shift: 0
     blue_shift: 0
   dynamic_range: DR400
-  d_range_priority: false
-  tone_curve:
+  d_range_priority: 'Off'
+  tone_curve: null
     highlights: -2
     shadows: -2
   color: 4
   sharpness: -2
   high_iso_nr: -4
-  clarity:
-source:
+  clarity: null
+source: null
   creator: Jason Vong
   url: https://www.youtube.com/watch?v=1f8EpRfwYr0

@@ -1,30 +1,29 @@
----
 name: Summer Evening Glow
-camera_slot:
-settings:
+camera_slot: null
+settings: null
   film_simulation: Provia
-  monochrome_color:
-    wc:
-    mg:
-  grain_effect:
+  monochrome_color: null
+    wc: null
+    mg: null
+  grain_effect: null
     roughness: Weak
     size: Small
   color_chrome_effect: Weak
   color_chrome_fx_blue: Weak
   smooth_skin_effect: Weak
-  white_balance:
+  white_balance: null
     mode: 5000K
     red_shift: 0
     blue_shift: 0
   dynamic_range: DR200
-  d_range_priority: false
-  tone_curve:
+  d_range_priority: 'Off'
+  tone_curve: null
     highlights: -2
     shadows: -2
   color: 2
   sharpness: -1
   high_iso_nr: 0
   clarity: 0
-source:
+source: null
   creator: Yuri Nanasaki
   url: https://www.fujifilm-x.com/en-us/stories/provia-fs-recipe-x-yuri-nanasaki/

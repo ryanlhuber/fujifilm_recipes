@@ -1,30 +1,29 @@
----
 name: Dreamy Purple
-camera_slot:
-settings:
+camera_slot: null
+settings: null
   film_simulation: Classic Neg.
-  monochrome_color:
-    wc:
-    mg:
-  grain_effect:
+  monochrome_color: null
+    wc: null
+    mg: null
+  grain_effect: null
     roughness: Strong
     size: Large
   color_chrome_effect: Strong
   color_chrome_fx_blue: Strong
-  smooth_skin_effect: false
-  white_balance:
+  smooth_skin_effect: 'Off'
+  white_balance: null
     mode: Auto White Priority
     red_shift: 0
     blue_shift: 7
   dynamic_range: DR400
-  d_range_priority: false
-  tone_curve:
+  d_range_priority: 'Off'
+  tone_curve: null
     highlights: -2
     shadows: 2
   color: 1
   sharpness: -1
   high_iso_nr: -4
   clarity: -5
-source:
+source: null
   creator: Ivan Yolo
   url: https://www.shuttergroove.com/fujifilm-recipes/classic-negative-recipes/papurudorimu-sooc-dreamy-purple-film-recipe/
