@@ -1,29 +1,28 @@
----
 name: Kurosawa
-camera_slot:
-settings:
+camera_slot: null
+settings: null
   film_simulation: Acros/R
-  monochrome_color:
+  monochrome_color: null
     wc: -2
     mg: 0
-  grain_effect:
+  grain_effect: null
     roughness: Strong
     size: Large
-  color_chrome_effect: false
-  color_chrome_fx_blue: false
-  smooth_skin_effect: false
-  white_balance:
+  color_chrome_effect: 'Off'
+  color_chrome_fx_blue: 'Off'
+  smooth_skin_effect: 'Off'
+  white_balance: null
     mode: Auto
     red_shift: 0
     blue_shift: 0
   dynamic_range: DR400
-  d_range_priority: false
-  tone_curve:
+  d_range_priority: 'Off'
+  tone_curve: null
     highlights: 1
     shadows: 2
   color: 0
   sharpness: -2
   high_iso_nr: -4
   clarity: -4
-source:
+source: null
   creator: self

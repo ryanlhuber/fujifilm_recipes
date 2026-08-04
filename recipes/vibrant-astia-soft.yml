@@ -1,30 +1,29 @@
----
 name: Vibrant Astia Soft
-camera_slot:
-settings:
+camera_slot: null
+settings: null
   film_simulation: Astia
-  monochrome_color:
-    wc:
-    mg:
-  grain_effect:
+  monochrome_color: null
+    wc: null
+    mg: null
+  grain_effect: null
     roughness: Strong
     size: Large
   color_chrome_effect: Strong
   color_chrome_fx_blue: Weak
-  smooth_skin_effect: false
-  white_balance:
+  smooth_skin_effect: 'Off'
+  white_balance: null
     mode: Auto
     red_shift: 2
     blue_shift: -2
   dynamic_range: DR400
-  d_range_priority: false
-  tone_curve:
+  d_range_priority: 'Off'
+  tone_curve: null
     highlights: -2
     shadows: 1
   color: 1
   sharpness: -2
   high_iso_nr: -4
   clarity: -4
-source:
+source: null
   creator: Osan Bilgi
   url: https://www.osan-bilgi.com/vibrant-astia-soft

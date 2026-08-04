@@ -1,872 +1,871 @@
----
-metadata:
+metadata: null
   schema_version: 1
   primary_camera: Fujifilm X-E5
-recipes:
+recipes: null
 - name: Stillness
   camera_slot: C1
-  settings:
+  settings: null
     film_simulation: Pro Neg. Std
-    monochrome_color:
-      wc:
-      mg:
-    grain_effect:
-      roughness: false
-      size:
+    monochrome_color: null
+      wc: null
+      mg: null
+    grain_effect: null
+      roughness: 'Off'
+      size: null
     color_chrome_effect: Strong
     color_chrome_fx_blue: Weak
-    smooth_skin_effect: false
-    white_balance:
+    smooth_skin_effect: 'Off'
+    white_balance: null
       mode: Auto
       red_shift: 2
       blue_shift: -2
     dynamic_range: DR200
-    d_range_priority: false
-    tone_curve:
+    d_range_priority: 'Off'
+    tone_curve: null
       highlights: -0.5
       shadows: -0.5
     color: -1
     sharpness: 0
     high_iso_nr: 0
     clarity: 2
-  source:
+  source: null
     creator: Gyu-yeon Lee
     url: https://www.fujifilm-x.com/en-us/stories/pro-neg-std-fs-recipe-x-gyu-yeon-lee/
 - name: Anime
   camera_slot: C2
-  settings:
+  settings: null
     film_simulation: Classic Chrome
-    monochrome_color:
-      wc:
-      mg:
-    grain_effect:
-      roughness: false
-      size:
+    monochrome_color: null
+      wc: null
+      mg: null
+    grain_effect: null
+      roughness: 'Off'
+      size: null
     color_chrome_effect: Strong
-    color_chrome_fx_blue: false
-    smooth_skin_effect: false
-    white_balance:
+    color_chrome_fx_blue: 'Off'
+    smooth_skin_effect: 'Off'
+    white_balance: null
       mode: Daylight
       red_shift: 0
       blue_shift: 0
     dynamic_range: DR400
-    d_range_priority: false
-    tone_curve:
+    d_range_priority: 'Off'
+    tone_curve: null
       highlights: -2
       shadows: -2
     color: 4
     sharpness: -2
     high_iso_nr: -4
-    clarity:
-  source:
+    clarity: null
+  source: null
     creator: Jason Vong
     url: https://www.youtube.com/watch?v=1f8EpRfwYr0
 - name: Pro Neg. Portrait
   camera_slot: C3
-  settings:
+  settings: null
     film_simulation: Pro Neg. Std
-    monochrome_color:
-      wc:
-      mg:
-    grain_effect:
+    monochrome_color: null
+      wc: null
+      mg: null
+    grain_effect: null
       roughness: Weak
       size: Small
-    color_chrome_effect: false
-    color_chrome_fx_blue: false
-    smooth_skin_effect: false
-    white_balance:
+    color_chrome_effect: 'Off'
+    color_chrome_fx_blue: 'Off'
+    smooth_skin_effect: 'Off'
+    white_balance: null
       mode: Auto
       red_shift: -1
       blue_shift: -2
     dynamic_range: Auto
-    d_range_priority: false
-    tone_curve:
+    d_range_priority: 'Off'
+    tone_curve: null
       highlights: 0
       shadows: 1
     color: 2
     sharpness: 2
     high_iso_nr: -1
     clarity: 0
-  source:
+  source: null
     creator: Derrick Ong
     url: https://www.fujifilm-x.com/en-us/stories/pro-neg-std-fs-recipe-x-derrick-ong/
 - name: Mt. Fujicolor Velvia
-  camera_slot:
-  settings:
+  camera_slot: null
+  settings: null
     film_simulation: Velvia
-    monochrome_color:
-      wc:
-      mg:
-    grain_effect:
-      roughness: false
-      size:
-    color_chrome_effect: false
-    color_chrome_fx_blue: false
-    smooth_skin_effect: false
-    white_balance:
+    monochrome_color: null
+      wc: null
+      mg: null
+    grain_effect: null
+      roughness: 'Off'
+      size: null
+    color_chrome_effect: 'Off'
+    color_chrome_fx_blue: 'Off'
+    smooth_skin_effect: 'Off'
+    white_balance: null
       mode: Daylight
       red_shift: 0
       blue_shift: 0
     dynamic_range: DR100
-    d_range_priority: false
-    tone_curve:
+    d_range_priority: 'Off'
+    tone_curve: null
       highlights: -1
       shadows: 4
     color: 1
     sharpness: 2
     high_iso_nr: 0
     clarity: 1
-  source:
+  source: null
     creator: Keigo Suzuki
     url: https://www.fujifilm-x.com/en-us/stories/velvia-fs-recipe-x-keigo-suzuki/
 - name: Mt. Fujicolor Velvia (Modified)
   camera_slot: C4
-  settings:
+  settings: null
     film_simulation: Velvia
-    monochrome_color:
-      wc:
-      mg:
-    grain_effect:
-      roughness: false
-      size:
-    color_chrome_effect: false
-    color_chrome_fx_blue: false
-    smooth_skin_effect: false
-    white_balance:
+    monochrome_color: null
+      wc: null
+      mg: null
+    grain_effect: null
+      roughness: 'Off'
+      size: null
+    color_chrome_effect: 'Off'
+    color_chrome_fx_blue: 'Off'
+    smooth_skin_effect: 'Off'
+    white_balance: null
       mode: Daylight
       red_shift: 0
       blue_shift: 0
     dynamic_range: Auto
-    d_range_priority: false
-    tone_curve:
+    d_range_priority: 'Off'
+    tone_curve: null
       highlights: -1
       shadows: 4
     color: 1
     sharpness: 2
     high_iso_nr: 0
     clarity: 1
-  source:
+  source: null
     creator: Keigo Suzuki
     url: https://www.fujifilm-x.com/en-us/stories/velvia-fs-recipe-x-keigo-suzuki/
 - name: Tokyo Dream
-  camera_slot:
-  settings:
+  camera_slot: null
+  settings: null
     film_simulation: Classic Neg.
-    monochrome_color:
-      wc:
-      mg:
-    grain_effect:
+    monochrome_color: null
+      wc: null
+      mg: null
+    grain_effect: null
       roughness: Weak
       size: Small
     color_chrome_effect: Strong
     color_chrome_fx_blue: Strong
-    smooth_skin_effect: false
-    white_balance:
+    smooth_skin_effect: 'Off'
+    white_balance: null
       mode: 5800K
       red_shift: -6
       blue_shift: -2
     dynamic_range: DR100
-    d_range_priority: false
-    tone_curve:
+    d_range_priority: 'Off'
+    tone_curve: null
       highlights: -2
       shadows: 2
     color: -2
     sharpness: -4
     high_iso_nr: -4
     clarity: -4
-  source:
+  source: null
     creator: Ivan Yolo
     url: https://www.shuttergroove.com/fujifilm-recipes/classic-negative-recipes/tokyo-dream-fujifilm-xt4-dreamy-recipe/
 - name: Tokyo Dream (Modified)
   camera_slot: C5
-  settings:
+  settings: null
     film_simulation: Classic Neg.
-    monochrome_color:
-      wc:
-      mg:
-    grain_effect:
+    monochrome_color: null
+      wc: null
+      mg: null
+    grain_effect: null
       roughness: Weak
       size: Small
     color_chrome_effect: Strong
     color_chrome_fx_blue: Strong
-    smooth_skin_effect: false
-    white_balance:
+    smooth_skin_effect: 'Off'
+    white_balance: null
       mode: 5800K
       red_shift: -6
       blue_shift: -2
     dynamic_range: Auto
-    d_range_priority: false
-    tone_curve:
+    d_range_priority: 'Off'
+    tone_curve: null
       highlights: -2
       shadows: 2
     color: -2
     sharpness: -4
     high_iso_nr: -4
     clarity: -4
-  source:
+  source: null
     creator: Ivan Yolo
     url: https://www.shuttergroove.com/fujifilm-recipes/classic-negative-recipes/tokyo-dream-fujifilm-xt4-dreamy-recipe/
 - name: Mika Ninagawa
   camera_slot: C6
-  settings:
+  settings: null
     film_simulation: Velvia
-    monochrome_color:
-      wc:
-      mg:
-    grain_effect:
+    monochrome_color: null
+      wc: null
+      mg: null
+    grain_effect: null
       roughness: Weak
       size: Small
     color_chrome_effect: Strong
     color_chrome_fx_blue: Weak
-    smooth_skin_effect: false
-    white_balance:
+    smooth_skin_effect: 'Off'
+    white_balance: null
       mode: Auto
       red_shift: 2
       blue_shift: -3
     dynamic_range: Auto
-    d_range_priority: false
-    tone_curve:
+    d_range_priority: 'Off'
+    tone_curve: null
       highlights: 2
       shadows: 1.5
     color: 4
     sharpness: 2
     high_iso_nr: -1
-    clarity:
-  source:
+    clarity: null
+  source: null
     creator: self
 - name: Leica Monochrom
-  camera_slot:
-  settings:
+  camera_slot: null
+  settings: null
     film_simulation: Monochrome/Ye
-    monochrome_color:
+    monochrome_color: null
       wc: 0
       mg: 0
-    grain_effect:
+    grain_effect: null
       roughness: Weak
       size: Small
     color_chrome_effect: Strong
-    color_chrome_fx_blue: false
-    smooth_skin_effect: false
-    white_balance:
+    color_chrome_fx_blue: 'Off'
+    smooth_skin_effect: 'Off'
+    white_balance: null
       mode: Daylight
       red_shift: 2
       blue_shift: -2
     dynamic_range: DR200
-    d_range_priority: false
-    tone_curve:
+    d_range_priority: 'Off'
+    tone_curve: null
       highlights: 0
       shadows: 0
     color: 0
     sharpness: 4
     high_iso_nr: -4
     clarity: 5
-  source:
+  source: null
     creator: Ivan Yolo
     url: https://www.shuttergroove.com/fujifilm-recipes/monochrome-recipes/leica-monochrom-film-recipe-for-fujifilm-cameras/
 - name: Leica Monochrom (Modified)
   camera_slot: C7
-  settings:
+  settings: null
     film_simulation: Acros/Ye
-    monochrome_color:
+    monochrome_color: null
       wc: 0
       mg: 0
-    grain_effect:
+    grain_effect: null
       roughness: Weak
       size: Small
     color_chrome_effect: Strong
-    color_chrome_fx_blue: false
-    smooth_skin_effect: false
-    white_balance:
+    color_chrome_fx_blue: 'Off'
+    smooth_skin_effect: 'Off'
+    white_balance: null
       mode: Daylight
       red_shift: 2
       blue_shift: -2
     dynamic_range: Auto
-    d_range_priority: false
-    tone_curve:
+    d_range_priority: 'Off'
+    tone_curve: null
       highlights: 0
       shadows: 0
     color: 0
     sharpness: 4
     high_iso_nr: -4
     clarity: 5
-  source:
+  source: null
     creator: Ivan Yolo
     url: https://www.shuttergroove.com/fujifilm-recipes/monochrome-recipes/leica-monochrom-film-recipe-for-fujifilm-cameras/
 - name: Reggie's Portra
   camera_slot: FS1
-  settings:
+  settings: null
     film_simulation: Classic Chrome
-    monochrome_color:
-      wc:
-      mg:
-    grain_effect:
+    monochrome_color: null
+      wc: null
+      mg: null
+    grain_effect: null
       roughness: Weak
       size: Small
     color_chrome_effect: Strong
     color_chrome_fx_blue: Weak
-    smooth_skin_effect: false
-    white_balance:
+    smooth_skin_effect: 'Off'
+    white_balance: null
       mode: Auto
       red_shift: 2
       blue_shift: -4
     dynamic_range: Auto
-    d_range_priority: false
-    tone_curve:
+    d_range_priority: 'Off'
+    tone_curve: null
       highlights: -1
       shadows: -1
     color: 2
     sharpness: -2
     high_iso_nr: -4
     clarity: 0
-  source:
+  source: null
     creator: Reggie Ballesteros
     url: https://www.youtube.com/shorts/3CcnD_99LHY
 - name: Reggie's Superia
   camera_slot: FS2
-  settings:
+  settings: null
     film_simulation: Classic Neg.
-    monochrome_color:
-      wc:
-      mg:
-    grain_effect:
+    monochrome_color: null
+      wc: null
+      mg: null
+    grain_effect: null
       roughness: Strong
       size: Large
     color_chrome_effect: Strong
     color_chrome_fx_blue: Strong
-    smooth_skin_effect: false
-    white_balance:
+    smooth_skin_effect: 'Off'
+    white_balance: null
       mode: Auto
       red_shift: 1
       blue_shift: -3
     dynamic_range: Auto
-    d_range_priority: false
-    tone_curve:
+    d_range_priority: 'Off'
+    tone_curve: null
       highlights: -2
       shadows: -1
     color: 1
     sharpness: -2
     high_iso_nr: -4
     clarity: 0
-  source:
+  source: null
     creator: Reggie Ballesteros
     url: https://youtu.be/rHeIWWcOUwI?si=XxwdhS1QjdTcVqCG
 - name: Reggie's HP5
   camera_slot: FS3
-  settings:
+  settings: null
     film_simulation: Acros/R
-    monochrome_color:
+    monochrome_color: null
       wc: 0
       mg: 0
-    grain_effect:
+    grain_effect: null
       roughness: Weak
       size: Small
-    color_chrome_effect: false
-    color_chrome_fx_blue: false
-    smooth_skin_effect: false
-    white_balance:
+    color_chrome_effect: 'Off'
+    color_chrome_fx_blue: 'Off'
+    smooth_skin_effect: 'Off'
+    white_balance: null
       mode: Auto
       red_shift: 0
       blue_shift: 0
     dynamic_range: Auto
-    d_range_priority: false
-    tone_curve:
+    d_range_priority: 'Off'
+    tone_curve: null
       highlights: 2
       shadows: 2
     color: 0
     sharpness: -1
     high_iso_nr: -3
     clarity: 0
-  source:
+  source: null
     creator: Reggie Ballesteros
     url: https://www.youtube.com/watch?v=-tuj18OyOwc
 - name: Dreaming
-  camera_slot:
-  settings:
+  camera_slot: null
+  settings: null
     film_simulation: Classic Neg.
-    monochrome_color:
-      wc:
-      mg:
-    grain_effect:
+    monochrome_color: null
+      wc: null
+      mg: null
+    grain_effect: null
       roughness: Strong
       size: Small
-    color_chrome_effect: false
-    color_chrome_fx_blue: false
-    smooth_skin_effect: false
-    white_balance:
+    color_chrome_effect: 'Off'
+    color_chrome_fx_blue: 'Off'
+    smooth_skin_effect: 'Off'
+    white_balance: null
       mode: Daylight
       red_shift: 4
       blue_shift: -5
     dynamic_range: DR200
-    d_range_priority: false
-    tone_curve:
+    d_range_priority: 'Off'
+    tone_curve: null
       highlights: -2
       shadows: 1
     color: 3
     sharpness: -2
     high_iso_nr: -4
     clarity: -2
-  source:
+  source: null
     creator: Alex Hayes
     url: https://www.youtube.com/watch?v=tk_g-xT2XPY&list=LL&index=5
 - name: Dreaming (Modified)
-  camera_slot:
-  settings:
+  camera_slot: null
+  settings: null
     film_simulation: Classic Neg.
-    monochrome_color:
-      wc:
-      mg:
-    grain_effect:
+    monochrome_color: null
+      wc: null
+      mg: null
+    grain_effect: null
       roughness: Strong
       size: Small
-    color_chrome_effect: false
-    color_chrome_fx_blue: false
-    smooth_skin_effect: false
-    white_balance:
+    color_chrome_effect: 'Off'
+    color_chrome_fx_blue: 'Off'
+    smooth_skin_effect: 'Off'
+    white_balance: null
       mode: Auto
       red_shift: 4
       blue_shift: -5
     dynamic_range: Auto
-    d_range_priority: false
-    tone_curve:
+    d_range_priority: 'Off'
+    tone_curve: null
       highlights: -2
       shadows: 1
     color: 3
     sharpness: -2
     high_iso_nr: -4
     clarity: -2
-  source:
+  source: null
     creator: Alex Hayes
     url: https://www.youtube.com/watch?v=tk_g-xT2XPY&list=LL&index=5
 - name: Teal Obscure
-  camera_slot:
-  settings:
+  camera_slot: null
+  settings: null
     film_simulation: Eterna/Cinema
-    monochrome_color:
-      wc:
-      mg:
-    grain_effect:
+    monochrome_color: null
+      wc: null
+      mg: null
+    grain_effect: null
       roughness: Weak
       size: Large
     color_chrome_effect: Weak
     color_chrome_fx_blue: Strong
-    smooth_skin_effect: false
-    white_balance:
+    smooth_skin_effect: 'Off'
+    white_balance: null
       mode: 4550K
       red_shift: 1
       blue_shift: -9
     dynamic_range: DR400
-    d_range_priority: false
-    tone_curve:
+    d_range_priority: 'Off'
+    tone_curve: null
       highlights: -1
       shadows: 4
     color: -1
     sharpness: -2
     high_iso_nr: -4
     clarity: -5
-  source:
+  source: null
     creator: Ivan Yolo
     url: https://www.shuttergroove.com/fujifilm-recipes/obscura-recipes/teal-obscure-orange-teal-recipe/
 - name: Velvet Shade
-  camera_slot:
-  settings:
+  camera_slot: null
+  settings: null
     film_simulation: Astia
-    monochrome_color:
-      wc:
-      mg:
-    grain_effect:
-      roughness: false
-      size:
+    monochrome_color: null
+      wc: null
+      mg: null
+    grain_effect: null
+      roughness: 'Off'
+      size: null
     color_chrome_effect: Strong
-    color_chrome_fx_blue: false
-    smooth_skin_effect: false
-    white_balance:
+    color_chrome_fx_blue: 'Off'
+    smooth_skin_effect: 'Off'
+    white_balance: null
       mode: Daylight
       red_shift: 3
       blue_shift: 2
     dynamic_range: DR400
-    d_range_priority: false
-    tone_curve:
+    d_range_priority: 'Off'
+    tone_curve: null
       highlights: 0
       shadows: 0
     color: 1
     sharpness: 1
     high_iso_nr: -4
     clarity: 0
-  source:
+  source: null
     creator: Ivan Yolo
     url: https://www.shuttergroove.com/fujifilm-recipes/astia-recipes/velvet-shade-recipe/
 - name: Kurosawa
-  camera_slot:
-  settings:
+  camera_slot: null
+  settings: null
     film_simulation: Acros/R
-    monochrome_color:
+    monochrome_color: null
       wc: -2
       mg: 0
-    grain_effect:
+    grain_effect: null
       roughness: Strong
       size: Large
-    color_chrome_effect: false
-    color_chrome_fx_blue: false
-    smooth_skin_effect: false
-    white_balance:
+    color_chrome_effect: 'Off'
+    color_chrome_fx_blue: 'Off'
+    smooth_skin_effect: 'Off'
+    white_balance: null
       mode: Auto
       red_shift: 0
       blue_shift: 0
     dynamic_range: DR400
-    d_range_priority: false
-    tone_curve:
+    d_range_priority: 'Off'
+    tone_curve: null
       highlights: 1
       shadows: 2
     color: 0
     sharpness: -2
     high_iso_nr: -4
     clarity: -4
-  source:
+  source: null
     creator: self
 - name: Ansel Adams
-  camera_slot:
-  settings:
+  camera_slot: null
+  settings: null
     film_simulation: Acros/R
-    monochrome_color:
+    monochrome_color: null
       wc: -1
       mg: 0
-    grain_effect:
+    grain_effect: null
       roughness: Weak
       size: Small
-    color_chrome_effect: false
-    color_chrome_fx_blue: false
-    smooth_skin_effect: false
-    white_balance:
+    color_chrome_effect: 'Off'
+    color_chrome_fx_blue: 'Off'
+    smooth_skin_effect: 'Off'
+    white_balance: null
       mode: Auto
       red_shift: 0
       blue_shift: 0
     dynamic_range: DR400
-    d_range_priority: false
-    tone_curve:
+    d_range_priority: 'Off'
+    tone_curve: null
       highlights: 2
       shadows: 3
     color: 0
     sharpness: 1
     high_iso_nr: -4
     clarity: 5
-  source:
+  source: null
     creator: self
 - name: Dreamy Purple
-  camera_slot:
-  settings:
+  camera_slot: null
+  settings: null
     film_simulation: Classic Neg.
-    monochrome_color:
-      wc:
-      mg:
-    grain_effect:
+    monochrome_color: null
+      wc: null
+      mg: null
+    grain_effect: null
       roughness: Strong
       size: Large
     color_chrome_effect: Strong
     color_chrome_fx_blue: Strong
-    smooth_skin_effect: false
-    white_balance:
+    smooth_skin_effect: 'Off'
+    white_balance: null
       mode: Auto White Priority
       red_shift: 0
       blue_shift: 7
     dynamic_range: DR400
-    d_range_priority: false
-    tone_curve:
+    d_range_priority: 'Off'
+    tone_curve: null
       highlights: -2
       shadows: 2
     color: 1
     sharpness: -1
     high_iso_nr: -4
     clarity: -5
-  source:
+  source: null
     creator: Ivan Yolo
     url: https://www.shuttergroove.com/fujifilm-recipes/classic-negative-recipes/papurudorimu-sooc-dreamy-purple-film-recipe/
 - name: Natura Classic Film
-  camera_slot:
-  settings:
+  camera_slot: null
+  settings: null
     film_simulation: Classic Neg.
-    monochrome_color:
-      wc:
-      mg:
-    grain_effect:
+    monochrome_color: null
+      wc: null
+      mg: null
+    grain_effect: null
       roughness: Strong
       size: Large
     color_chrome_effect: Strong
     color_chrome_fx_blue: Strong
-    smooth_skin_effect: false
-    white_balance:
+    smooth_skin_effect: 'Off'
+    white_balance: null
       mode: Auto
       red_shift: -3
       blue_shift: -3
     dynamic_range: DR200
-    d_range_priority: false
-    tone_curve:
+    d_range_priority: 'Off'
+    tone_curve: null
       highlights: 2
       shadows: -1
     color: 2
     sharpness: 0
     high_iso_nr: -4
     clarity: 0
-  source:
+  source: null
     creator: Ivan Yolo
     url: https://www.shuttergroove.com/fujifilm-recipes/35mm-film-recipes/natura-classic-film-fuji-x-trans-iv-film-simulation-recipe/
 - name: Ginza 1980
-  camera_slot:
-  settings:
+  camera_slot: null
+  settings: null
     film_simulation: Classic Chrome
-    monochrome_color:
-      wc:
-      mg:
-    grain_effect:
+    monochrome_color: null
+      wc: null
+      mg: null
+    grain_effect: null
       roughness: Strong
       size: Large
-    color_chrome_effect: false
-    color_chrome_fx_blue: false
-    smooth_skin_effect: false
-    white_balance:
+    color_chrome_effect: 'Off'
+    color_chrome_fx_blue: 'Off'
+    smooth_skin_effect: 'Off'
+    white_balance: null
       mode: Fluorescent Light - 1
       red_shift: 2
       blue_shift: -2
     dynamic_range: DR100
-    d_range_priority: false
-    tone_curve:
+    d_range_priority: 'Off'
+    tone_curve: null
       highlights: -2
       shadows: -1
     color: 3
     sharpness: -4
     high_iso_nr: -4
     clarity: 0
-  source:
+  source: null
     creator: Ivan Yolo
     url: https://www.shuttergroove.com/fujifilm-recipes/classic-chrome-recipes/ginza-1980-film-simulation-recipe/
 - name: Moody Metropolis 500T
-  camera_slot:
-  settings:
+  camera_slot: null
+  settings: null
     film_simulation: Classic Neg.
-    monochrome_color:
-      wc:
-      mg:
-    grain_effect:
+    monochrome_color: null
+      wc: null
+      mg: null
+    grain_effect: null
       roughness: Weak
       size: Small
     color_chrome_effect: Strong
     color_chrome_fx_blue: Strong
-    smooth_skin_effect: false
-    white_balance:
+    smooth_skin_effect: 'Off'
+    white_balance: null
       mode: Fluorescent Light - 2
       red_shift: -3
       blue_shift: -6
     dynamic_range: DR400
-    d_range_priority: false
-    tone_curve:
+    d_range_priority: 'Off'
+    tone_curve: null
       highlights: -1
       shadows: 0
     color: 0
     sharpness: 0
     high_iso_nr: -4
     clarity: 0
-  source:
+  source: null
     creator: Ivan Yolo
     url: https://www.shuttergroove.com/fujifilm-recipes/classic-negative-recipes/moody-metropolis-500t-film-recipe-joker-inspired/
 - name: Sunburst
-  camera_slot:
-  settings:
+  camera_slot: null
+  settings: null
     film_simulation: Classic Neg.
-    monochrome_color:
-      wc:
-      mg:
-    grain_effect:
-      roughness: false
-      size:
+    monochrome_color: null
+      wc: null
+      mg: null
+    grain_effect: null
+      roughness: 'Off'
+      size: null
     color_chrome_effect: Weak
     color_chrome_fx_blue: Weak
-    smooth_skin_effect: false
-    white_balance:
+    smooth_skin_effect: 'Off'
+    white_balance: null
       mode: Auto
       red_shift: 2
       blue_shift: -3
     dynamic_range: DR200
-    d_range_priority: false
-    tone_curve:
+    d_range_priority: 'Off'
+    tone_curve: null
       highlights: 0.5
       shadows: -1
     color: 1
     sharpness: 0
     high_iso_nr: 0
     clarity: 0
-  source:
+  source: null
     creator: Naoya Takahashi
     url: https://www.fujifilm-x.com/en-us/stories/classic-neg-fs-recipe-x-naoya-takahashi/
 - name: Summer Evening Glow
-  camera_slot:
-  settings:
+  camera_slot: null
+  settings: null
     film_simulation: Provia
-    monochrome_color:
-      wc:
-      mg:
-    grain_effect:
+    monochrome_color: null
+      wc: null
+      mg: null
+    grain_effect: null
       roughness: Weak
       size: Small
     color_chrome_effect: Weak
     color_chrome_fx_blue: Weak
     smooth_skin_effect: Weak
-    white_balance:
+    white_balance: null
       mode: 5000K
       red_shift: 0
       blue_shift: 0
     dynamic_range: DR200
-    d_range_priority: false
-    tone_curve:
+    d_range_priority: 'Off'
+    tone_curve: null
       highlights: -2
       shadows: -2
     color: 2
     sharpness: -1
     high_iso_nr: 0
     clarity: 0
-  source:
+  source: null
     creator: Yuri Nanasaki
     url: https://www.fujifilm-x.com/en-us/stories/provia-fs-recipe-x-yuri-nanasaki/
 - name: Vintage Bronze
-  camera_slot:
-  settings:
+  camera_slot: null
+  settings: null
     film_simulation: Eterna Bleach Bypass
-    monochrome_color:
-      wc:
-      mg:
-    grain_effect:
+    monochrome_color: null
+      wc: null
+      mg: null
+    grain_effect: null
       roughness: Weak
       size: Large
-    color_chrome_effect: false
-    color_chrome_fx_blue: false
-    smooth_skin_effect: false
-    white_balance:
+    color_chrome_effect: 'Off'
+    color_chrome_fx_blue: 'Off'
+    smooth_skin_effect: 'Off'
+    white_balance: null
       mode: Daylight
       red_shift: 6
       blue_shift: -8
     dynamic_range: DR200
-    d_range_priority: false
-    tone_curve:
+    d_range_priority: 'Off'
+    tone_curve: null
       highlights: 0
       shadows: -1
     color: 0
     sharpness: -2
     high_iso_nr: -4
     clarity: -2
-  source:
+  source: null
     creator: Ritchie Roesch
     url: https://fujixweekly.com/2023/01/13/vintage-bronze-fujifilm-x-t5-x-trans-v-film-simulation-recipe/
 - name: Vibrant Astia Soft
-  camera_slot:
-  settings:
+  camera_slot: null
+  settings: null
     film_simulation: Astia
-    monochrome_color:
-      wc:
-      mg:
-    grain_effect:
+    monochrome_color: null
+      wc: null
+      mg: null
+    grain_effect: null
       roughness: Strong
       size: Large
     color_chrome_effect: Strong
     color_chrome_fx_blue: Weak
-    smooth_skin_effect: false
-    white_balance:
+    smooth_skin_effect: 'Off'
+    white_balance: null
       mode: Auto
       red_shift: 2
       blue_shift: -2
     dynamic_range: DR400
-    d_range_priority: false
-    tone_curve:
+    d_range_priority: 'Off'
+    tone_curve: null
       highlights: -2
       shadows: 1
     color: 1
     sharpness: -2
     high_iso_nr: -4
     clarity: -4
-  source:
+  source: null
     creator: Osan Bilgi
     url: https://www.osan-bilgi.com/vibrant-astia-soft
 - name: Pastel Vibes
-  camera_slot:
-  settings:
+  camera_slot: null
+  settings: null
     film_simulation: Classic Neg.
-    monochrome_color:
-      wc:
-      mg:
-    grain_effect:
-      roughness: false
-      size:
+    monochrome_color: null
+      wc: null
+      mg: null
+    grain_effect: null
+      roughness: 'Off'
+      size: null
     color_chrome_effect: Weak
-    color_chrome_fx_blue: false
-    smooth_skin_effect: false
-    white_balance:
+    color_chrome_fx_blue: 'Off'
+    smooth_skin_effect: 'Off'
+    white_balance: null
       mode: Auto
       red_shift: -1
       blue_shift: 0
     dynamic_range: DR400
-    d_range_priority: false
-    tone_curve:
+    d_range_priority: 'Off'
+    tone_curve: null
       highlights: -2
       shadows: -1
     color: 3
     sharpness: 1
     high_iso_nr: -4
     clarity: 2
-  source:
+  source: null
     creator: Willow Rotter
     url: https://film.recipes/2022/08/21/pastel-vibes-film-recipe-by-willow-rotter/
 - name: Nomadic Mood
-  camera_slot:
-  settings:
+  camera_slot: null
+  settings: null
     film_simulation: Classic Neg.
-    monochrome_color:
-      wc:
-      mg:
-    grain_effect:
+    monochrome_color: null
+      wc: null
+      mg: null
+    grain_effect: null
       roughness: Strong
       size: Large
     color_chrome_effect: Strong
     color_chrome_fx_blue: Strong
-    smooth_skin_effect: false
-    white_balance:
+    smooth_skin_effect: 'Off'
+    white_balance: null
       mode: Auto
       red_shift: 4
       blue_shift: -6
     dynamic_range: DR400
-    d_range_priority: false
-    tone_curve:
+    d_range_priority: 'Off'
+    tone_curve: null
       highlights: -2
       shadows: 2
     color: -2
     sharpness: -1
     high_iso_nr: -4
     clarity: 0
-  source:
+  source: null
     creator: Ivan Yolo
     url: https://www.shuttergroove.com/fujifilm-recipes/classic-negative-recipes/nomadic-mood-moody-travel-film-simulation-recipe-xtrans-iv/
 - name: Pastel Daydream
-  camera_slot:
-  settings:
+  camera_slot: null
+  settings: null
     film_simulation: Classic Chrome
-    monochrome_color:
-      wc:
-      mg:
-    grain_effect:
+    monochrome_color: null
+      wc: null
+      mg: null
+    grain_effect: null
       roughness: Weak
       size: Small
     color_chrome_effect: Weak
     color_chrome_fx_blue: Strong
-    smooth_skin_effect: false
-    white_balance:
+    smooth_skin_effect: 'Off'
+    white_balance: null
       mode: Daylight
       red_shift: -2
       blue_shift: 2
     dynamic_range: DR400
-    d_range_priority: false
-    tone_curve:
+    d_range_priority: 'Off'
+    tone_curve: null
       highlights: 0
       shadows: 0
     color: 1
     sharpness: 1
     high_iso_nr: -4
     clarity: -1
-  source:
+  source: null
     creator: Ivan Yolo
     url: https://www.shuttergroove.com/

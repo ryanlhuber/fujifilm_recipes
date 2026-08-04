@@ -1,30 +1,29 @@
----
 name: Reggie's HP5
 camera_slot: FS3
-settings:
+settings: null
   film_simulation: Acros/R
-  monochrome_color:
+  monochrome_color: null
     wc: 0
     mg: 0
-  grain_effect:
+  grain_effect: null
     roughness: Weak
     size: Small
-  color_chrome_effect: false
-  color_chrome_fx_blue: false
-  smooth_skin_effect: false
-  white_balance:
+  color_chrome_effect: 'Off'
+  color_chrome_fx_blue: 'Off'
+  smooth_skin_effect: 'Off'
+  white_balance: null
     mode: Auto
     red_shift: 0
     blue_shift: 0
   dynamic_range: Auto
-  d_range_priority: false
-  tone_curve:
+  d_range_priority: 'Off'
+  tone_curve: null
     highlights: 2
     shadows: 2
   color: 0
   sharpness: -1
   high_iso_nr: -3
   clarity: 0
-source:
+source: null
   creator: Reggie Ballesteros
   url: https://www.youtube.com/watch?v=-tuj18OyOwc

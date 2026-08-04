@@ -1,29 +1,28 @@
----
 name: Mika Ninagawa
 camera_slot: C6
-settings:
+settings: null
   film_simulation: Velvia
-  monochrome_color:
-    wc:
-    mg:
-  grain_effect:
+  monochrome_color: null
+    wc: null
+    mg: null
+  grain_effect: null
     roughness: Weak
     size: Small
   color_chrome_effect: Strong
   color_chrome_fx_blue: Weak
-  smooth_skin_effect: false
-  white_balance:
+  smooth_skin_effect: 'Off'
+  white_balance: null
     mode: Auto
     red_shift: 2
     blue_shift: -3
   dynamic_range: Auto
-  d_range_priority: false
-  tone_curve:
+  d_range_priority: 'Off'
+  tone_curve: null
     highlights: 2
     shadows: 1.5
   color: 4
   sharpness: 2
   high_iso_nr: -1
-  clarity:
-source:
+  clarity: null
+source: null
   creator: self

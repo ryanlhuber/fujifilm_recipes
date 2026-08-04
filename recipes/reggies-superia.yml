@@ -1,30 +1,29 @@
----
 name: Reggie's Superia
 camera_slot: FS2
-settings:
+settings: null
   film_simulation: Classic Neg.
-  monochrome_color:
-    wc:
-    mg:
-  grain_effect:
+  monochrome_color: null
+    wc: null
+    mg: null
+  grain_effect: null
     roughness: Strong
     size: Large
   color_chrome_effect: Strong
   color_chrome_fx_blue: Strong
-  smooth_skin_effect: false
-  white_balance:
+  smooth_skin_effect: 'Off'
+  white_balance: null
     mode: Auto
     red_shift: 1
     blue_shift: -3
   dynamic_range: Auto
-  d_range_priority: false
-  tone_curve:
+  d_range_priority: 'Off'
+  tone_curve: null
     highlights: -2
     shadows: -1
   color: 1
   sharpness: -2
   high_iso_nr: -4
   clarity: 0
-source:
+source: null
   creator: Reggie Ballesteros
   url: https://youtu.be/rHeIWWcOUwI?si=XxwdhS1QjdTcVqCG
