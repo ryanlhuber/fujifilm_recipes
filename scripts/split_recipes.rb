@@ -9,6 +9,14 @@ RECIPES_DIR = "recipes"
 GENERATED_DIR = "generated"
 GENERATED_PATH = File.join(GENERATED_DIR, "recipes.yml")
 
+UNUSED_SETTING_KEYS = %w[
+  roughness
+  color_chrome_effect
+  color_chrome_fx_blue
+  smooth_skin_effect
+  d_range_priority
+].freeze
+
 def slugify(name)
   name
     .downcase
@@ -17,14 +25,16 @@ def slugify(name)
     .gsub(/\A-+|-+\z/, "")
 end
 
-def normalize_yaml_values(value)
+def normalize_yaml_values(value, key = nil)
   case value
   when Hash
-    value.transform_values { |item| normalize_yaml_values(item) }
+    value.to_h { |child_key, item| [child_key, normalize_yaml_values(item, child_key)] }
   when Array
     value.map { |item| normalize_yaml_values(item) }
   when false
     "Off"
+  when nil
+    UNUSED_SETTING_KEYS.include?(key) ? "Off" : nil
   else
     value
   end
@@ -34,6 +44,17 @@ def dump_yaml(value)
   YAML.dump(value)
     .gsub(/^---\s*\n/, "")
     .gsub(/^(\s*[^\s][^:\n]*:)\s*$/, "\\1 null")
+end
+
+def validate_no_boolean_settings!(value, path = [])
+  case value
+  when Hash
+    value.each { |key, item| validate_no_boolean_settings!(item, path + [key]) }
+  when Array
+    value.each_with_index { |item, index| validate_no_boolean_settings!(item, path + [index]) }
+  when true, false
+    abort "Boolean setting found at #{path.join('.')}; use Off or an explicit setting value."
+  end
 end
 
 source_path = if File.exist?(LEGACY_SOURCE_PATH)
@@ -46,6 +67,7 @@ source_path = if File.exist?(LEGACY_SOURCE_PATH)
 
 data = YAML.safe_load(File.read(source_path), permitted_classes: [], aliases: false)
 data = normalize_yaml_values(data)
+validate_no_boolean_settings!(data)
 metadata = data.fetch("metadata")
 recipes = data.fetch("recipes")
 
