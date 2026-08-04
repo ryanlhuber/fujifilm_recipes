@@ -9,18 +9,25 @@ on:
       - recipes/**
       - scripts/split_recipes.rb
       - .github/workflows/migrate-recipes.yml
+  issue_comment:
+    types:
+      - created
 
 permissions:
   contents: write
 
 jobs:
   generate:
-    if: github.event.head_commit.message != 'Regenerate recipe collection'
+    if: >-
+      (github.event_name == 'push' && github.event.head_commit.message != 'Regenerate recipe collection') ||
+      (github.event_name == 'issue_comment' && github.event.comment.body == '/regenerate-recipes')
     runs-on: ubuntu-latest
 
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Generate recipe files and combined collection
         run: ruby scripts/split_recipes.rb
