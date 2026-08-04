@@ -9,7 +9,7 @@ LEGACY_SOURCE_PATH = "recipes.yml"
 RECIPES_DIR = "recipes"
 GENERATED_DIR = "generated"
 GENERATED_PATH = File.join(GENERATED_DIR, "recipes.yml")
-RECOVERY_REF = "10d5b452c1475bfa88e897f31ec6861fc7a1e247^:generated/recipes.yml"
+RECOVERY_REF = "a7c047a954b5fc4b8515718bea3dc7ce68106aa2:generated/recipes.yml"
 NULL_SENTINEL = "__FUJI_NULL__"
 
 UNUSED_SETTING_KEYS = %w[
