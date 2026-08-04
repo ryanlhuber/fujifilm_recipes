@@ -1,29 +1,29 @@
 name: Dreaming (Modified)
 camera_slot: null
-settings: null
+settings:
   film_simulation: Classic Neg.
-  monochrome_color: null
+  monochrome_color:
     wc: null
     mg: null
-  grain_effect: null
+  grain_effect:
     roughness: Strong
     size: Small
-  color_chrome_effect: 'Off'
-  color_chrome_fx_blue: 'Off'
-  smooth_skin_effect: 'Off'
-  white_balance: null
+  color_chrome_effect: Off
+  color_chrome_fx_blue: Off
+  smooth_skin_effect: Off
+  white_balance:
     mode: Auto
     red_shift: 4
     blue_shift: -5
   dynamic_range: Auto
-  d_range_priority: 'Off'
-  tone_curve: null
+  d_range_priority: Off
+  tone_curve:
     highlights: -2
     shadows: 1
   color: 3
   sharpness: -2
   high_iso_nr: -4
   clarity: -2
-source: null
+source:
   creator: Alex Hayes
   url: https://www.youtube.com/watch?v=tk_g-xT2XPY&list=LL&index=5
