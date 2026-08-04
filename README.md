@@ -2,12 +2,16 @@
 
 A personal collection of Fujifilm film simulation recipes, organized for the Fujifilm X-E5.
 
-The repository starts with one YAML file so recipes are easy to add and maintain. The structure is designed to support a future searchable website without requiring the collection to be rewritten.
+Each recipe is stored in its own YAML file so additions and edits remain small, reviewable, and easy to automate. A combined file is generated for websites, applications, or tools that need the entire collection at once.
 
 ## Files
 
-- `recipes.yml` — source of truth for recipes, camera slots, settings, and sources
+- `recipes/` — source of truth; one complete YAML file per recipe
+- `generated/recipes.yml` — generated combined collection
 - `docs/data-format.md` — conventions for adding recipes
+- `scripts/split_recipes.rb` — migration and collection-generation utility
+
+Do not edit `generated/recipes.yml` directly. Update the appropriate file in `recipes/`, then regenerate the combined collection.
 
 ## Camera slots
 
@@ -20,7 +24,7 @@ Recipes that are not loaded use YAML `null`.
 
 ## Modified recipes
 
-Modified versions remain separate recipe entries and use the naming pattern:
+Modified versions remain separate recipe files and use the naming pattern:
 
 ```yaml
 name: Recipe Name (Modified)
