@@ -1,4 +1,4 @@
-name: Migrate recipes to individual files
+name: Generate recipe collection
 
 on:
   push:
@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - recipes.yml
+      - recipes/**
       - scripts/split_recipes.rb
       - .github/workflows/migrate-recipes.yml
 
@@ -13,32 +14,30 @@ permissions:
   contents: write
 
 jobs:
-  migrate:
+  generate:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
 
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Split recipes
+      - name: Generate recipe files and combined collection
         run: ruby scripts/split_recipes.rb
 
-      - name: Commit generated recipe files
-        run: |
-          if [ ! -f recipes.yml ]; then
-            echo "Migration already completed."
-            exit 0
-          fi
+      - name: Remove legacy collection
+        run: rm -f recipes.yml
 
-          rm recipes.yml
+      - name: Commit generated files
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add recipes generated recipes.yml
 
           if git diff --cached --quiet; then
-            echo "No recipe migration changes to commit."
+            echo "No recipe generation changes to commit."
             exit 0
           fi
 
-          git commit -m "Migrate recipes to individual files"
+          git commit -m "Regenerate recipe collection"
           git push
