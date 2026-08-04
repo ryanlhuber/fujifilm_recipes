@@ -2,12 +2,15 @@
 # frozen_string_literal: true
 
 require "fileutils"
+require "open3"
 require "yaml"
 
 LEGACY_SOURCE_PATH = "recipes.yml"
 RECIPES_DIR = "recipes"
 GENERATED_DIR = "generated"
 GENERATED_PATH = File.join(GENERATED_DIR, "recipes.yml")
+RECOVERY_REF = "10d5b452c1475bfa88e897f31ec6861fc7a1e247^:generated/recipes.yml"
+NULL_SENTINEL = "__FUJI_NULL__"
 
 UNUSED_SETTING_KEYS = %w[
   roughness
@@ -40,10 +43,24 @@ def normalize_yaml_values(value, key = nil)
   end
 end
 
+def prepare_for_dump(value)
+  case value
+  when Hash
+    value.transform_values { |item| prepare_for_dump(item) }
+  when Array
+    value.map { |item| prepare_for_dump(item) }
+  when nil
+    NULL_SENTINEL
+  else
+    value
+  end
+end
+
 def dump_yaml(value)
-  YAML.dump(value)
-    .gsub(/^---\s*\n/, "")
-    .gsub(/^(\s*[^\s][^:\n]*:)\s*$/, "\\1 null")
+  YAML.dump(prepare_for_dump(value))
+    .sub(/^---\s*\n/, "")
+    .gsub(/['\"]?#{NULL_SENTINEL}['\"]?/, "null")
+    .gsub(/['\"]Off['\"]/, "Off")
 end
 
 def validate_no_boolean_settings!(value, path = [])
@@ -57,16 +74,24 @@ def validate_no_boolean_settings!(value, path = [])
   end
 end
 
-source_path = if File.exist?(LEGACY_SOURCE_PATH)
-                LEGACY_SOURCE_PATH
-              elsif File.exist?(GENERATED_PATH)
-                GENERATED_PATH
-              else
-                abort "No recipe collection found to split."
-              end
+def load_collection
+  source_path = if File.exist?(LEGACY_SOURCE_PATH)
+                  LEGACY_SOURCE_PATH
+                elsif File.exist?(GENERATED_PATH)
+                  GENERATED_PATH
+                else
+                  abort "No recipe collection found to split."
+                end
 
-data = YAML.safe_load(File.read(source_path), permitted_classes: [], aliases: false)
-data = normalize_yaml_values(data)
+  YAML.safe_load(File.read(source_path), permitted_classes: [], aliases: false)
+rescue Psych::SyntaxError
+  recovered, status = Open3.capture2("git", "show", RECOVERY_REF)
+  abort "Could not recover the pre-migration recipe collection." unless status.success?
+
+  YAML.safe_load(recovered, permitted_classes: [], aliases: false)
+end
+
+data = normalize_yaml_values(load_collection)
 validate_no_boolean_settings!(data)
 metadata = data.fetch("metadata")
 recipes = data.fetch("recipes")
