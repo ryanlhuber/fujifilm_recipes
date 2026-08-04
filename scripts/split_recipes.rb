@@ -4,7 +4,7 @@
 require "fileutils"
 require "yaml"
 
-SOURCE_PATH = "recipes.yml"
+LEGACY_SOURCE_PATH = "recipes.yml"
 RECIPES_DIR = "recipes"
 GENERATED_DIR = "generated"
 GENERATED_PATH = File.join(GENERATED_DIR, "recipes.yml")
@@ -17,12 +17,35 @@ def slugify(name)
     .gsub(/\A-+|-+\z/, "")
 end
 
-unless File.exist?(SOURCE_PATH)
-  warn "#{SOURCE_PATH} does not exist; nothing to migrate."
-  exit 0
+def normalize_yaml_values(value)
+  case value
+  when Hash
+    value.transform_values { |item| normalize_yaml_values(item) }
+  when Array
+    value.map { |item| normalize_yaml_values(item) }
+  when false
+    "Off"
+  else
+    value
+  end
 end
 
-data = YAML.safe_load(File.read(SOURCE_PATH), permitted_classes: [], aliases: false)
+def dump_yaml(value)
+  YAML.dump(value)
+    .gsub(/^---\s*\n/, "")
+    .gsub(/^(\s*[^\s][^:\n]*:)\s*$/, "\\1 null")
+end
+
+source_path = if File.exist?(LEGACY_SOURCE_PATH)
+                LEGACY_SOURCE_PATH
+              elsif File.exist?(GENERATED_PATH)
+                GENERATED_PATH
+              else
+                abort "No recipe collection found to split."
+              end
+
+data = YAML.safe_load(File.read(source_path), permitted_classes: [], aliases: false)
+data = normalize_yaml_values(data)
 metadata = data.fetch("metadata")
 recipes = data.fetch("recipes")
 
@@ -42,7 +65,7 @@ recipes.each do |recipe|
   end
 
   used_slugs[slug] = true
-  File.write(File.join(RECIPES_DIR, "#{slug}.yml"), YAML.dump(recipe))
+  File.write(File.join(RECIPES_DIR, "#{slug}.yml"), dump_yaml(recipe))
 end
 
 combined = {
@@ -50,7 +73,7 @@ combined = {
   "recipes" => recipes
 }
 
-File.write(GENERATED_PATH, YAML.dump(combined))
+File.write(GENERATED_PATH, dump_yaml(combined))
 
 puts "Created #{recipes.length} recipe files in #{RECIPES_DIR}/"
 puts "Created #{GENERATED_PATH}"
