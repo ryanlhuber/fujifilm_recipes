@@ -7,7 +7,7 @@ settings:
     wc:
     mg:
   grain_effect:
-    roughness: Off
+    roughness: "Off"
     size:
   color_chrome_effect: Strong
   color_chrome_fx_blue: Off
