@@ -1,29 +1,29 @@
 name: Reggie's Portra
 camera_slot: FS1
-settings: null
+settings:
   film_simulation: Classic Chrome
-  monochrome_color: null
+  monochrome_color:
     wc: null
     mg: null
-  grain_effect: null
+  grain_effect:
     roughness: Weak
     size: Small
   color_chrome_effect: Strong
   color_chrome_fx_blue: Weak
-  smooth_skin_effect: 'Off'
-  white_balance: null
+  smooth_skin_effect: Off
+  white_balance:
     mode: Auto
     red_shift: 2
     blue_shift: -4
   dynamic_range: Auto
-  d_range_priority: 'Off'
-  tone_curve: null
+  d_range_priority: Off
+  tone_curve:
     highlights: -1
     shadows: -1
   color: 2
   sharpness: -2
   high_iso_nr: -4
   clarity: 0
-source: null
+source:
   creator: Reggie Ballesteros
   url: https://www.youtube.com/shorts/3CcnD_99LHY

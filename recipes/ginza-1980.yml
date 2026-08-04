@@ -1,29 +1,29 @@
 name: Ginza 1980
 camera_slot: null
-settings: null
+settings:
   film_simulation: Classic Chrome
-  monochrome_color: null
+  monochrome_color:
     wc: null
     mg: null
-  grain_effect: null
+  grain_effect:
     roughness: Strong
     size: Large
-  color_chrome_effect: 'Off'
-  color_chrome_fx_blue: 'Off'
-  smooth_skin_effect: 'Off'
-  white_balance: null
+  color_chrome_effect: Off
+  color_chrome_fx_blue: Off
+  smooth_skin_effect: Off
+  white_balance:
     mode: Fluorescent Light - 1
     red_shift: 2
     blue_shift: -2
   dynamic_range: DR100
-  d_range_priority: 'Off'
-  tone_curve: null
+  d_range_priority: Off
+  tone_curve:
     highlights: -2
     shadows: -1
   color: 3
   sharpness: -4
   high_iso_nr: -4
   clarity: 0
-source: null
+source:
   creator: Ivan Yolo
   url: https://www.shuttergroove.com/fujifilm-recipes/classic-chrome-recipes/ginza-1980-film-simulation-recipe/

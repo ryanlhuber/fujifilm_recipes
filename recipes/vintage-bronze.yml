@@ -1,29 +1,29 @@
 name: Vintage Bronze
 camera_slot: null
-settings: null
+settings:
   film_simulation: Eterna Bleach Bypass
-  monochrome_color: null
+  monochrome_color:
     wc: null
     mg: null
-  grain_effect: null
+  grain_effect:
     roughness: Weak
     size: Large
-  color_chrome_effect: 'Off'
-  color_chrome_fx_blue: 'Off'
-  smooth_skin_effect: 'Off'
-  white_balance: null
+  color_chrome_effect: Off
+  color_chrome_fx_blue: Off
+  smooth_skin_effect: Off
+  white_balance:
     mode: Daylight
     red_shift: 6
     blue_shift: -8
   dynamic_range: DR200
-  d_range_priority: 'Off'
-  tone_curve: null
+  d_range_priority: Off
+  tone_curve:
     highlights: 0
     shadows: -1
   color: 0
   sharpness: -2
   high_iso_nr: -4
   clarity: -2
-source: null
+source:
   creator: Ritchie Roesch
   url: https://fujixweekly.com/2023/01/13/vintage-bronze-fujifilm-x-t5-x-trans-v-film-simulation-recipe/

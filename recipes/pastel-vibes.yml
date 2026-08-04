@@ -1,29 +1,29 @@
 name: Pastel Vibes
 camera_slot: null
-settings: null
+settings:
   film_simulation: Classic Neg.
-  monochrome_color: null
+  monochrome_color:
     wc: null
     mg: null
-  grain_effect: null
-    roughness: 'Off'
+  grain_effect:
+    roughness: Off
     size: null
   color_chrome_effect: Weak
-  color_chrome_fx_blue: 'Off'
-  smooth_skin_effect: 'Off'
-  white_balance: null
+  color_chrome_fx_blue: Off
+  smooth_skin_effect: Off
+  white_balance:
     mode: Auto
     red_shift: -1
     blue_shift: 0
   dynamic_range: DR400
-  d_range_priority: 'Off'
-  tone_curve: null
+  d_range_priority: Off
+  tone_curve:
     highlights: -2
     shadows: -1
   color: 3
   sharpness: 1
   high_iso_nr: -4
   clarity: 2
-source: null
+source:
   creator: Willow Rotter
   url: https://film.recipes/2022/08/21/pastel-vibes-film-recipe-by-willow-rotter/
