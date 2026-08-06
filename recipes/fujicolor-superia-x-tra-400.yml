@@ -1,0 +1,29 @@
+name: Fujicolor Superia X-TRA 400
+camera_slot: null
+settings:
+  film_simulation: Classic Neg.
+  monochrome_color:
+    wc: null
+    mg: null
+  grain_effect:
+    roughness: Strong
+    size: Large
+  color_chrome_effect: Strong
+  color_chrome_fx_blue: Strong
+  smooth_skin_effect: Off
+  white_balance:
+    mode: 5500K
+    red_shift: -2
+    blue_shift: -1
+  dynamic_range: DR400
+  d_range_priority: Off
+  tone_curve:
+    highlights: -1.5
+    shadows: 1
+  color: -2
+  sharpness: 0
+  high_iso_nr: -4
+  clarity: 2
+source:
+  creator: Ivan Yolo
+  url: https://www.shuttergroove.com/fujifilm-recipes/35mm-film-recipes/fujicolor-superia-x-tra-400-film-recipe/
