@@ -1,0 +1,28 @@
+name: Oldboy
+camera_slot: null
+settings:
+  film_simulation: Eterna/Cinema
+  monochrome_color:
+    wc: null
+    mg: null
+  grain_effect:
+    roughness: Strong
+    size: Large
+  color_chrome_effect: Strong
+  color_chrome_fx_blue: Strong
+  smooth_skin_effect: Off
+  white_balance:
+    mode: Fluorescent Light - 1
+    red_shift: -3
+    blue_shift: -5
+  dynamic_range: DR400
+  d_range_priority: Off
+  tone_curve:
+    highlights: -1
+    shadows: 3
+  color: -2
+  sharpness: -2
+  high_iso_nr: -4
+  clarity: -3
+source:
+  creator: self
