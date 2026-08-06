@@ -73,3 +73,5 @@ These recipes are saved in the collection but are not currently loaded into a ca
 | Pastel Vibes | Willow Rotter |
 | Nomadic Mood | Ivan Yolo |
 | Pastel Daydream | Ivan Yolo |
+| Oldboy | self |
+| Fujicolor Superia X-TRA 400 | Ivan Yolo |
