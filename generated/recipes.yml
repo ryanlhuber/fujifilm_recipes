@@ -146,6 +146,35 @@ recipes:
   source:
     creator: Ivan Yolo
     url: https://www.shuttergroove.com/fujifilm-recipes/classic-negative-recipes/papurudorimu-sooc-dreamy-purple-film-recipe/
+- name: Fujicolor Superia X-TRA 400
+  camera_slot: null
+  settings:
+    film_simulation: Classic Neg.
+    monochrome_color:
+      wc: null
+      mg: null
+    grain_effect:
+      roughness: Strong
+      size: Large
+    color_chrome_effect: Strong
+    color_chrome_fx_blue: Strong
+    smooth_skin_effect: Off
+    white_balance:
+      mode: 5500K
+      red_shift: -2
+      blue_shift: -1
+    dynamic_range: DR400
+    d_range_priority: Off
+    tone_curve:
+      highlights: -1.5
+      shadows: 1
+    color: -2
+    sharpness: 0
+    high_iso_nr: -4
+    clarity: 2
+  source:
+    creator: Ivan Yolo
+    url: https://www.shuttergroove.com/fujifilm-recipes/35mm-film-recipes/fujicolor-superia-x-tra-400-film-recipe/
 - name: Ginza 1980
   camera_slot: null
   settings:
@@ -574,6 +603,34 @@ recipes:
   source:
     creator: Ivan Yolo
     url: https://www.shuttergroove.com/fujifilm-recipes/classic-negative-recipes/nomadic-mood-moody-travel-film-simulation-recipe-xtrans-iv/
+- name: Oldboy
+  camera_slot: null
+  settings:
+    film_simulation: Eterna/Cinema
+    monochrome_color:
+      wc: null
+      mg: null
+    grain_effect:
+      roughness: Strong
+      size: Large
+    color_chrome_effect: Strong
+    color_chrome_fx_blue: Strong
+    smooth_skin_effect: Off
+    white_balance:
+      mode: Fluorescent Light - 1
+      red_shift: -3
+      blue_shift: -5
+    dynamic_range: DR400
+    d_range_priority: Off
+    tone_curve:
+      highlights: -1
+      shadows: 3
+    color: -2
+    sharpness: -2
+    high_iso_nr: -4
+    clarity: -3
+  source:
+    creator: self
 - name: Pastel Daydream
   camera_slot: null
   settings:
