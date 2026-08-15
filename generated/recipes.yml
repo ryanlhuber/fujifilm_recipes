@@ -953,7 +953,7 @@ recipes:
 - name: The Wailing
   camera_slot: null
   settings:
-    film_simulation: Reala Ace
+    film_simulation: Classic Chrome
     monochrome_color:
       wc: null
       mg: null
@@ -971,7 +971,7 @@ recipes:
     d_range_priority: Off
     tone_curve:
       highlights: -1
-      shadows: 2
+      shadows: 1
     color: -2
     sharpness: -2
     high_iso_nr: -4
