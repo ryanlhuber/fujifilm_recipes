@@ -953,7 +953,7 @@ recipes:
 - name: The Wailing
   camera_slot: null
   settings:
-    film_simulation: Eterna/Cinema
+    film_simulation: Reala Ace
     monochrome_color:
       wc: null
       mg: null
@@ -964,7 +964,7 @@ recipes:
     color_chrome_fx_blue: Weak
     smooth_skin_effect: Off
     white_balance:
-      mode: 5000K
+      mode: Auto Ambience Priority
       red_shift: -3
       blue_shift: -4
     dynamic_range: DR400
