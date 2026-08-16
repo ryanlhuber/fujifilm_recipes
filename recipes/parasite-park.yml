@@ -1,0 +1,37 @@
+name: Parasite - Park
+camera_slot: null
+
+settings:
+  film_simulation: Reala Ace
+
+  monochrome_color:
+    wc: null
+    mg: null
+
+  grain_effect:
+    roughness: Weak
+    size: Large
+
+  color_chrome_effect: Strong
+  color_chrome_fx_blue: Weak
+  smooth_skin_effect: Off
+
+  white_balance:
+    mode: Auto Ambience Priority
+    red_shift: -2
+    blue_shift: -3
+
+  dynamic_range: DR400
+  d_range_priority: Off
+
+  tone_curve:
+    highlights: -1
+    shadows: 1
+
+  color: -1
+  sharpness: -1
+  high_iso_nr: -4
+  clarity: -2
+
+source:
+  creator: self
