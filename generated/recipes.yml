@@ -402,6 +402,35 @@ recipes:
     clarity: -3
   source:
     creator: Jepi
+- name: Kodak T-Max P3200
+  camera_slot: null
+  settings:
+    film_simulation: Acros
+    monochrome_color:
+      wc: -1
+      mg: -1
+    grain_effect:
+      roughness: Strong
+      size: Large
+    color_chrome_effect: Off
+    color_chrome_fx_blue: Off
+    smooth_skin_effect: Off
+    white_balance:
+      mode: 5500K
+      red_shift: 4
+      blue_shift: 7
+    dynamic_range: DR400
+    d_range_priority: Off
+    tone_curve:
+      highlights: 1
+      shadows: 3
+    color: 0
+    sharpness: 2
+    high_iso_nr: -4
+    clarity: 1
+  source:
+    creator: Anders Lindborg & John Sevigny
+    url: https://fujixweekly.com/2023/05/18/kodak-t-max-p3200-a-fujifilm-film-simulation-recipe-for-x-trans-iv-v/
 - name: Kodak Tri-X 400
   camera_slot: null
   settings:
