@@ -402,6 +402,35 @@ recipes:
     clarity: -3
   source:
     creator: Jepi
+- name: Kodak T-Max 100 Soft Tone
+  camera_slot: null
+  settings:
+    film_simulation: Monochrome/G
+    monochrome_color:
+      wc: 0
+      mg: 0
+    grain_effect:
+      roughness: Weak
+      size: Large
+    color_chrome_effect: Off
+    color_chrome_fx_blue: Off
+    smooth_skin_effect: Off
+    white_balance:
+      mode: Daylight
+      red_shift: -6
+      blue_shift: -3
+    dynamic_range: DR200
+    d_range_priority: Off
+    tone_curve:
+      highlights: -0.5
+      shadows: 1.5
+    color: 0
+    sharpness: -1
+    high_iso_nr: -4
+    clarity: -1
+  source:
+    creator: Dan Allen
+    url: https://fujixweekly.com/2024/10/07/kodak-t-max-100-soft-tone-a-film-simulation-recipe-for-fujifilm-x-trans-iv-x-trans-v-cameras-part-2/
 - name: Kodak T-Max P3200
   camera_slot: null
   settings:
