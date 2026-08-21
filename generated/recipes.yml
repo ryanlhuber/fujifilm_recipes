@@ -146,6 +146,35 @@ recipes:
   source:
     creator: Ivan Yolo
     url: https://www.shuttergroove.com/fujifilm-recipes/classic-negative-recipes/papurudorimu-sooc-dreamy-purple-film-recipe/
+- name: FRGMT B&W
+  camera_slot: null
+  settings:
+    film_simulation: Acros
+    monochrome_color:
+      wc: 0
+      mg: 0
+    grain_effect:
+      roughness: Strong
+      size: Large
+    color_chrome_effect: Off
+    color_chrome_fx_blue: Off
+    smooth_skin_effect: Off
+    white_balance:
+      mode: Auto
+      red_shift: 0
+      blue_shift: 0
+    dynamic_range: DR Auto
+    d_range_priority: Off
+    tone_curve:
+      highlights: 4
+      shadows: 2
+    color: 0
+    sharpness: -4
+    high_iso_nr: -4
+    clarity: 5
+  source:
+    creator: Hiroshi Fujiwara
+    url: https://fujixweekly.com/2025/12/04/frgmt-bw-a-fujifilm-film-simulation-recipe-by-hiroshi-fujiwara/
 - name: Fujicolor Superia X-TRA 400
   camera_slot: null
   settings:
@@ -373,6 +402,35 @@ recipes:
     clarity: -3
   source:
     creator: Jepi
+- name: Kodak Tri-X 400
+  camera_slot: null
+  settings:
+    film_simulation: Acros
+    monochrome_color:
+      wc: 0
+      mg: 0
+    grain_effect:
+      roughness: Strong
+      size: Large
+    color_chrome_effect: Strong
+    color_chrome_fx_blue: Off
+    smooth_skin_effect: Off
+    white_balance:
+      mode: Daylight
+      red_shift: 9
+      blue_shift: -9
+    dynamic_range: DR200
+    d_range_priority: Off
+    tone_curve:
+      highlights: 0
+      shadows: 3
+    color: 0
+    sharpness: 1
+    high_iso_nr: -4
+    clarity: 4
+  source:
+    creator: Anders Lindborg
+    url: https://fujixweekly.com/2020/06/18/fujifilm-x100v-film-simulation-recipe-kodak-tri-x-400/
 - name: Kurosawa
   camera_slot: null
   settings:
